@@ -1,0 +1,5 @@
+classifier,side,zero_sections,labelled_indigenous,flagged,agree_indigenous,flagged_not_labelled,labelled_not_flagged
+v1,opp,106,68,63,63,0,5
+v1,pt,4,0,0,0,0,0
+v2,opp,106,68,68,68,0,0
+v2,pt,4,0,0,0,0,0

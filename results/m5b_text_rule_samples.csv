@@ -1,0 +1,25 @@
+threshold,quantity,k,n_places,estimate,lo95,hi95,interval
+1 km,precision: share of flagged places with a register signal,188,196,0.9591836735,0.9215389663,0.9791750347,Wilson
+1 km,share of unflagged frame places with a register signal,7,200,0.035,0.01705554192,0.07047061189,Wilson
+1 km,recall in frame municipalities,,392,0.4121532916,0.2642929847,0.605998424,"Jeffreys posterior draws, strata weighted"
+1 km,Cohen's kappa in frame municipalities,,392,0.565156684,0.3927162514,0.7403228317,"Jeffreys posterior draws, strata weighted"
+1 km,precision (cluster bootstrap),188,196,0.9591836735,0.9274516947,0.9841311394,"municipality cluster bootstrap, 110 municipalities"
+1 km,unflagged share (cluster bootstrap),7,200,0.035,0.01239415391,0.06433220147,"municipality cluster bootstrap, 132 municipalities"
+5 km,precision: share of flagged places with a register signal,190,196,0.9693877551,0.9348337265,0.9858961412,Wilson
+5 km,share of unflagged frame places with a register signal,50,200,0.25,0.1950816797,0.3143409837,Wilson
+5 km,recall in frame municipalities,,392,0.09024873768,0.07300096674,0.1130576104,"Jeffreys posterior draws, strata weighted"
+5 km,Cohen's kappa in frame municipalities,,392,0.1262591052,0.09470932539,0.1663473179,"Jeffreys posterior draws, strata weighted"
+5 km,precision (cluster bootstrap),190,196,0.9693877551,0.9405405405,0.9901002292,"municipality cluster bootstrap, 110 municipalities"
+5 km,unflagged share (cluster bootstrap),50,200,0.25,0.1818181818,0.3282352941,"municipality cluster bootstrap, 132 municipalities"
+1 km,sample A: text-flagged: category indigenous village or community,186,196,0.9489795918,0.9086443425,0.9720537918,Wilson
+1 km,sample A: text-flagged: category urban,4,196,0.02040816327,0.007964263124,0.05129000247,Wilson
+1 km,sample A: text-flagged: category other rural or riverside,3,196,0.01530612245,0.005218879739,0.04402745251,Wilson
+1 km,sample A: text-flagged: category urban indigenous school (in a town),2,196,0.01020408163,0.002802802147,0.03643559676,Wilson
+1 km,sample A: text-flagged: category quilombola community,1,196,0.005102040816,0.0009012039406,0.02832926162,Wilson
+1 km,"sample B: unflagged, frame: category urban",135,200,0.675,0.6073198506,0.7360842851,Wilson
+1 km,"sample B: unflagged, frame: category other rural or riverside",55,200,0.275,0.2177970029,0.3406833941,Wilson
+1 km,"sample B: unflagged, frame: category urban indigenous school (in a town)",7,200,0.035,0.01705554192,0.07047061189,Wilson
+1 km,"sample B: unflagged, frame: category quilombola community",3,200,0.015,0.005114237754,0.04316572912,Wilson
+-,sample places without a usable coordinate (left out),4,400,,,,-
+-,sample A places outside frame municipalities,4,196,,,,-
+-,"population sizes: flagged in frame (N_A), unflagged in frame (N_B)",622,24819,,,,-

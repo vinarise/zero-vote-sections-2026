@@ -1,0 +1,12 @@
+zero_for,label,label_basis,confidence,sections
+opp,indigenous village or community,registers,high,64
+opp,indigenous village or community,"text only, no usable coordinate",low,3
+opp,other rural or riverside,registers,high,17
+opp,other rural or riverside,registers; label changes at 5 km,medium,2
+opp,other rural or riverside,"text only, no usable coordinate",low,1
+opp,prison or detention,official place type,high,2
+opp,quilombola community,registers,high,15
+opp,quilombola community,registers; label changes at 5 km,medium,1
+opp,urban,registers,high,1
+pt,other rural or riverside,registers,high,3
+pt,urban,registers,high,1

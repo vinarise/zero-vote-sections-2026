@@ -1,0 +1,18 @@
+# PRIVACY RULE. No section or polling place is named, located or listed. The smallest unit is the municipality (a city, for votes abroad).
+# A municipality or city is named only if it has at least 50 apt voters and neither candidate has 0 votes or all the valid votes in it. Others are pooled per state as 'other, pooled'.
+# No municipal-level file counts zero or near-unanimous sections. Zero sections are published only nationally, by region and by state, and as national place-category totals by two methods (official registers within 1 km, and the text rule), with cells under 10 sections suppressed.
+# Source: TSE open data, 2026 round 2, President. See SOURCES.md. Built by 08_interactive.py (v2).
+scope,method,place_category,sections,zero_sections_lula,zero_sections_flavio,suppressed
+Brazil and abroad,"registers, 1 km",indigenous village or community,1662,0,67,False
+Brazil and abroad,"registers, 1 km",other rural or riverside,41603,3,20,False
+Brazil and abroad,"registers, 1 km",prison or detention,263,0,2,False
+Brazil and abroad,"registers, 1 km",quilombola community,3455,0,16,False
+Brazil and abroad,"registers, 1 km",unresolved,4652,0,0,False
+Brazil and abroad,"registers, 1 km",urban,443928,1,1,False
+Brazil and abroad,"registers, 1 km",urban indigenous school (in a town),3642,0,0,False
+Brazil and abroad,text rule,indigenous (inferred),1169,0,68,False
+Brazil and abroad,text rule,other,440240,0,0,False
+Brazil and abroad,text rule,prison (official type),243,0,2,False
+Brazil and abroad,text rule,quilombola (inferred),441,0,5,False
+Brazil and abroad,text rule,river (inferred),1479,1,2,False
+Brazil and abroad,text rule,rural (inferred),55633,3,29,False

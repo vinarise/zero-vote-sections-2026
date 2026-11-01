@@ -1,0 +1,6 @@
+check,status,reason
+"Signatures of the per-machine files (bu.dat, .vscmr, logs, RDV) in bu_imgbu_logjez_rdv_vscmr_2026_2t_<UF>.zip",not run,"Needs the TSE file-format specification and the public-key certificate chain. The tse.jus.br pages that document them returned HTTP 403 to scripted requests on 2026-10-29, and no verifier was available. Bundles are 0.2 to 25.8 GB per state."
+Bulletin values decoded from bu.dat against the BWEB rows,not run,Same files and same specification as above.
+Bulletin image text (imgbu) against the BWEB rows,not run,Needs the machine bundles above. Not downloaded.
+Machine logs: votes computed against bulletin turnout,not run,Needs the machine bundles above. Not downloaded.
+Any check of what a voter typed against what the bulletin recorded,not possible with public files,Public files start at the bulletin. Nothing public records a voter's input.

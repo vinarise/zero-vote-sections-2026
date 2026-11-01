@@ -1,0 +1,136 @@
+id	where	stated	reads_as	arm	field	format	needs
+N001	Key findings, item 1	106	106	measure=zero_count|year=2026|side=opp|min_valid_votes=1	k	int	
+N002	Key findings, item 1	14,860	14,860	measure=zero_count|year=2026|side=opp|min_valid_votes=1	votes_other	int	
+N003	Key findings, item 1	4	4	measure=zero_count|year=2026|side=pt|min_valid_votes=1	k	int	
+N004	Key findings, item 1	296	296	measure=zero_count|year=2026|side=pt|min_valid_votes=1	votes_other	int	
+N005	Key findings, item 2	328	328	measure=zero_count|year=2018|side=opp|min_valid_votes=1	k	int	
+N006	Key findings, item 2	143	143	measure=zero_count|year=2022|side=opp|min_valid_votes=1	k	int	
+N007	Key findings, item 2	4 (2018)	4	measure=zero_count|year=2018|side=pt|min_valid_votes=1	k	int	
+N008	Key findings, item 2	4 (2022)	4	measure=zero_count|year=2022|side=pt|min_valid_votes=1	k	int	
+N009	Key findings, item 3	64	64	measure=zero_category|year=2026|side=opp|category=indigenous village or community|scope=registers	k	int	
+N010	Key findings, item 3	16	16	measure=zero_category|year=2026|side=opp|category=quilombola community|scope=registers	k	int	
+N011	Key findings, item 3	19	19	measure=zero_category|year=2026|side=opp|category=other rural or riverside|scope=registers	k	int	
+N012	Key findings, item 3	1	1	measure=zero_category|year=2026|side=opp|category=urban|scope=registers	k	int	
+N013	Key findings, item 3	2	2	measure=zero_category|year=2026|side=opp|category=prison or detention|scope=official place type	k	int	
+N014	Key findings, item 3	4	4	measure=zero_basis|year=2026|side=opp|scope=text only	k	int	
+N015	Key findings, item 3	3	3	measure=zero_category|year=2026|side=opp|category=indigenous village or community|scope=text only	k	int	
+N016	Key findings, item 3	1	1	measure=zero_category|year=2026|side=opp|category=other rural or riverside|scope=text only	k	int	
+N017	Key findings, item 3	3	3	measure=zero_category|year=2026|side=pt|category=other rural or riverside|scope=registers	k	int	
+N018	Key findings, item 3	1	1	measure=zero_category|year=2026|side=pt|category=urban|scope=registers	k	int	
+N019	Key findings, item 4, and the models table	106 against 10.8	10.8	measure=observed_vs_expected|year=2026|side=opp|model=EB-r1|event=zero|min_valid_votes=1	expected	dec1	
+N020	Key findings, item 4, and the models table	4 against 0.4	0.4	measure=observed_vs_expected|year=2026|side=pt|model=EB-r1|event=zero|min_valid_votes=1	expected	dec1	
+N021	Key findings, item 4, and the models table	32.7 against 143	32.7	measure=observed_vs_expected|year=2022|side=opp|model=EB-r1|event=zero|min_valid_votes=1	expected	dec1	
+N022	Key findings, item 4, and the models table	2.4 against 4	2.4	measure=observed_vs_expected|year=2022|side=pt|model=EB-r1|event=zero|min_valid_votes=1	expected	dec1	
+N023	Key findings, item 4, and the models table	184.6	184.6	measure=observed_vs_expected|year=2018|side=opp|model=EB-r1|event=zero|min_valid_votes=1	expected	dec1	
+N024	Key findings, item 4, and the models table	4.9	4.9	measure=observed_vs_expected|year=2018|side=pt|model=EB-r1|event=zero|min_valid_votes=1	expected	dec1	
+N025	Key findings, item 4, and the models table	328 observed (2018)	328	measure=observed_vs_expected|year=2018|side=opp|model=EB-r1|event=zero|min_valid_votes=1	k	int	
+N026	Key findings, item 4, and the models table	4 observed (2018)	4	measure=observed_vs_expected|year=2018|side=pt|model=EB-r1|event=zero|min_valid_votes=1	k	int	
+N027	The best-scoring model, in every year and on both sides	best (1)	1	measure=is_best_model|year=2018|side=opp|model=EB-r1	k	int	
+N028	The best-scoring model, in every year and on both sides	best (1)	1	measure=is_best_model|year=2018|side=pt|model=EB-r1	k	int	
+N029	The best-scoring model, in every year and on both sides	best (1)	1	measure=is_best_model|year=2022|side=opp|model=EB-r1	k	int	
+N030	The best-scoring model, in every year and on both sides	best (1)	1	measure=is_best_model|year=2022|side=pt|model=EB-r1	k	int	
+N031	The best-scoring model, in every year and on both sides	best (1)	1	measure=is_best_model|year=2026|side=opp|model=EB-r1	k	int	
+N032	The best-scoring model, in every year and on both sides	best (1)	1	measure=is_best_model|year=2026|side=pt|model=EB-r1	k	int	
+N033	Key findings, item 5, and 'Did anything change'	503	503	measure=panel_zero_rate|year=2026|side=opp|category=register: indigenous village or community	value	int	
+N034	Key findings, item 5, and 'Did anything change'	3.6%	3.6%	measure=panel_zero_rate|year=2022|side=opp|category=register: indigenous village or community	share	pct1	
+N035	Key findings, item 5, and 'Did anything change'	35	35	measure=panel_zero_rate|year=2022|side=opp|category=register: indigenous village or community	k	int	
+N036	Key findings, item 5, and 'Did anything change'	964	964	measure=panel_zero_rate|year=2022|side=opp|category=register: indigenous village or community	n	int	
+N037	Key findings, item 5, and 'Did anything change'	3.4%	3.4%	measure=panel_zero_rate|year=2026|side=opp|category=register: indigenous village or community	share	pct1	
+N038	Key findings, item 5, and 'Did anything change'	36	36	measure=panel_zero_rate|year=2026|side=opp|category=register: indigenous village or community	k	int	
+N039	Key findings, item 5, and 'Did anything change'	1,067	1,067	measure=panel_zero_rate|year=2026|side=opp|category=register: indigenous village or community	n	int	
+N040	Key findings, item 5, and 'Did anything change'	2.4%	2.4%	measure=panel_zero_rate|year=2022|side=opp|category=register: indigenous village or community	ratio_ci_low	pct1	
+N041	Key findings, item 5, and 'Did anything change'	5.0%	5.0%	measure=panel_zero_rate|year=2022|side=opp|category=register: indigenous village or community	ratio_ci_high	pct1	
+N042	Key findings, item 5, and 'Did anything change'	2.1%	2.1%	measure=panel_zero_rate|year=2026|side=opp|category=register: indigenous village or community	ratio_ci_low	pct1	
+N043	Key findings, item 5, and 'Did anything change'	4.7%	4.7%	measure=panel_zero_rate|year=2026|side=opp|category=register: indigenous village or community	ratio_ci_high	pct1	
+N044	Key findings, item 5, and 'Did anything change'	none (PT side, 2022)	0	measure=panel_zero_rate|year=2022|side=pt|category=register: indigenous village or community	k	int	
+N045	Key findings, item 5, and 'Did anything change'	none (PT side, 2026)	0	measure=panel_zero_rate|year=2026|side=pt|category=register: indigenous village or community	k	int	
+N046	Key findings, item 6, and 'What the files can't show'	1,931,103	1,931,103	measure=consistency|year=2026|category=bulletin vs section, vote counts	n	int	
+N047	Key findings, item 6, and 'What the files can't show'	0 differences	0	measure=consistency|year=2026|category=bulletin vs section, vote counts	k	int	
+N048	Key findings, item 6, and 'What the files can't show'	12,584	12,584	measure=consistency|year=2026|category=sum of sections vs published totals	n	int	
+N049	Key findings, item 6, and 'What the files can't show'	every total matches (2026)	0	measure=consistency|year=2026|category=sum of sections vs published totals	k	int	
+N050	Key findings, item 6, and 'What the files can't show'	no turnout above registered (2026)	0	measure=consistency|year=2026|category=turnout above electorate	k	int	
+N051	Key findings, item 6, and 'What the files can't show'	every total matches (2022)	0	measure=consistency|year=2022|category=sum of sections vs published totals	k	int	
+N052	Key findings, item 6, and 'What the files can't show'	no turnout above registered (2022)	0	measure=consistency|year=2022|category=turnout above electorate	k	int	
+N053	Key findings, item 6, and 'What the files can't show'	every total matches (2018)	0	measure=consistency|year=2018|category=sum of sections vs published totals	k	int	
+N054	Key findings, item 6, and 'What the files can't show'	no turnout above registered (2018)	0	measure=consistency|year=2018|category=turnout above electorate	k	int	
+N055	Key findings, item 6, and 'What the files can't show'	0.2 GB	0.2	measure=check_not_run|category=smallest state bundle	value	dec1	
+N056	Key findings, item 6, and 'What the files can't show'	25.8 GB	25.8	measure=check_not_run|category=largest state bundle	value	dec1	
+N057	Key findings, item 6, and 'What the files can't show'	about 41%	41%	measure=text_rule_vs_registers|year=2026|category=recall|scope=1 km	share	pct0	
+N058	Key findings, item 6, and 'What the files can't show'	about 96%	96%	measure=text_rule_vs_registers|year=2026|category=precision|scope=1 km	share	pct0	
+N059	What I checked	4,430,191	4,430,191	measure=margin|year=2026	value	int	
+N060	What I checked	64,256,232	64,256,232	measure=votes|year=2026|side=pt	value	int	
+N061	What I checked	59,826,041	59,826,041	measure=votes|year=2026|side=opp	value	int	
+N062	What I checked	0.34%	0.34%	measure=share_of_margin|year=2026	value	pct2	
+N063	Where the zeros are	65	65	measure=zero_by_region|year=2026|side=opp|category=North	k	int	
+N064	Where the zeros are	29	29	measure=zero_by_region|year=2026|side=opp|category=Northeast	k	int	
+N065	Where the zeros are	6	6	measure=zero_by_region|year=2026|side=opp|category=Center-West	k	int	
+N066	Where the zeros are	3	3	measure=zero_by_region|year=2026|side=opp|category=South	k	int	
+N067	Where the zeros are	3	3	measure=zero_by_region|year=2026|side=opp|category=Southeast	k	int	
+N068	Where the zeros are	2 (North, Lula)	2	measure=zero_by_region|year=2026|side=pt|category=North	k	int	
+N069	Where the zeros are	2 (South, Lula)	2	measure=zero_by_region|year=2026|side=pt|category=South	k	int	
+N070	Where the zeros are, the table	1,662	1,662	measure=category_table|year=2026|side=opp|category=indigenous village or community|scope=registers, 1 km	n	int	
+N071	Where the zeros are, the table	67	67	measure=category_table|year=2026|side=opp|category=indigenous village or community|scope=registers, 1 km	k	int	
+N072	Where the zeros are, the table	0	0	measure=category_table|year=2026|side=pt|category=indigenous village or community|scope=registers, 1 km	k	int	
+N073	Where the zeros are, the table	3,455	3,455	measure=category_table|year=2026|side=opp|category=quilombola community|scope=registers, 1 km	n	int	
+N074	Where the zeros are, the table	16	16	measure=category_table|year=2026|side=opp|category=quilombola community|scope=registers, 1 km	k	int	
+N075	Where the zeros are, the table	0	0	measure=category_table|year=2026|side=pt|category=quilombola community|scope=registers, 1 km	k	int	
+N076	Where the zeros are, the table	263	263	measure=category_table|year=2026|side=opp|category=prison or detention|scope=registers, 1 km	n	int	
+N077	Where the zeros are, the table	2	2	measure=category_table|year=2026|side=opp|category=prison or detention|scope=registers, 1 km	k	int	
+N078	Where the zeros are, the table	0	0	measure=category_table|year=2026|side=pt|category=prison or detention|scope=registers, 1 km	k	int	
+N079	Where the zeros are, the table	41,603	41,603	measure=category_table|year=2026|side=opp|category=other rural or riverside|scope=registers, 1 km	n	int	
+N080	Where the zeros are, the table	20	20	measure=category_table|year=2026|side=opp|category=other rural or riverside|scope=registers, 1 km	k	int	
+N081	Where the zeros are, the table	3	3	measure=category_table|year=2026|side=pt|category=other rural or riverside|scope=registers, 1 km	k	int	
+N082	Where the zeros are, the table	3,642	3,642	measure=category_table|year=2026|side=opp|category=urban indigenous school (in a town)|scope=registers, 1 km	n	int	
+N083	Where the zeros are, the table	0	0	measure=category_table|year=2026|side=opp|category=urban indigenous school (in a town)|scope=registers, 1 km	k	int	
+N084	Where the zeros are, the table	0	0	measure=category_table|year=2026|side=pt|category=urban indigenous school (in a town)|scope=registers, 1 km	k	int	
+N085	Where the zeros are, the table	443,928	443,928	measure=category_table|year=2026|side=opp|category=urban|scope=registers, 1 km	n	int	
+N086	Where the zeros are, the table	1	1	measure=category_table|year=2026|side=opp|category=urban|scope=registers, 1 km	k	int	
+N087	Where the zeros are, the table	1	1	measure=category_table|year=2026|side=pt|category=urban|scope=registers, 1 km	k	int	
+N088	Where the zeros are, the table	4,652	4,652	measure=category_table|year=2026|side=opp|category=unresolved|scope=registers, 1 km	n	int	
+N089	Where the zeros are, the table	0	0	measure=category_table|year=2026|side=opp|category=unresolved|scope=registers, 1 km	k	int	
+N090	Where the zeros are, the table	0	0	measure=category_table|year=2026|side=pt|category=unresolved|scope=registers, 1 km	k	int	
+N091	Where the zeros are	Five of the 110	5	measure=zero_without_coordinate|year=2026|side=opp+measure=zero_without_coordinate|year=2026|side=pt	k	int	
+N092	Where the zeros are	103	103	measure=register_text_agreement|year=2026|scope=both sides, indigenous yes or no	k	int	labels
+N093	Where the zeros are	106	106	measure=register_text_agreement|year=2026|scope=both sides, indigenous yes or no	n	int	labels
+N094	Where the zeros are	50	50	measure=round1_in_zero_sections|year=2026|side=opp|category=r1_share_zero	k	int	
+N095	Where the zeros are	102	102	measure=round1_in_zero_sections|year=2026|side=opp|category=r1_share_lt_5pct	k	int	
+N096	Where the zeros are	none had 10% or more	0	measure=round1_in_zero_sections|year=2026|side=opp|category=r1_share_ge_10pct	k	int	
+N097	Where the zeros are	4 (Lula, no round-1 votes)	4	measure=round1_in_zero_sections|year=2026|side=pt|category=r1_share_zero	k	int	
+N098	What the models say and don't	65.4	65.4	measure=expected_on_zero_sections|year=2026|side=opp|model=BB-place	expected	dec1	
+N099	What the models say and don't	18.2	18.2	measure=expected_on_zero_sections|year=2026|side=opp|model=BB-place	value	dec1	
+N100	What the models say and don't	every model's 99.9% bound, PL side (2018)	6	measure=u1_models_exceeded|year=2018|side=opp	k	int	
+N101	What the models say and don't	every model's 99.9% bound, PL side (2022)	6	measure=u1_models_exceeded|year=2022|side=opp	k	int	
+N102	What the models say and don't	every model's 99.9% bound, PL side (2026)	6	measure=u1_models_exceeded|year=2026|side=opp	k	int	
+N103	What the models say and don't	four of six (PT side, 2026)	4	measure=u1_models_exceeded|year=2026|side=pt	k	int	
+N104	What the models say and don't	none before (PT side, 2022)	0	measure=u1_models_exceeded|year=2022|side=pt	k	int	
+N105	What the models say and don't	none before (PT side, 2018)	0	measure=u1_models_exceeded|year=2018|side=pt	k	int	
+N106	What the models say and don't	10	10	measure=u2_fires|side=both|scope=pooled	k	int	
+N107	What the models say and don't	72	72	measure=u2_fires|side=both|scope=pooled	n	int	
+N108	What the models say and don't	all on the PL side	10	measure=u2_fires|side=opp|scope=pooled	k	int	
+N109	What the models say and don't	12	12	measure=u2_fires|side=opp|scope=own side	k	int	
+N110	What the models say and don't	9	9	measure=u2_fires|side=pt|scope=own side	k	int	
+N111	What the models say and don't	5 (PL side)	5	measure=u2_fires|side=opp|scope=own side	value	int	
+N112	What the models say and don't	5 (PT side)	5	measure=u2_fires|side=pt|scope=own side	value	int	
+N113	Did anything change in 2026	1.8	1.8	measure=observed_vs_expected|year=2018|side=opp|model=EB-r1|event=zero|min_valid_votes=1	ratio	dec1	
+N114	Did anything change in 2026	9.8	9.8	measure=observed_vs_expected|year=2026|side=opp|model=EB-r1|event=zero|min_valid_votes=1	ratio	dec1	
+N115	Did anything change in 2026	0.8	0.8	measure=observed_vs_expected|year=2018|side=pt|model=EB-r1|event=zero|min_valid_votes=1	ratio	dec1	
+N116	Did anything change in 2026	10.9	10.9	measure=observed_vs_expected|year=2026|side=pt|model=EB-r1|event=zero|min_valid_votes=1	ratio	dec1	
+N117	Did anything change in 2026	7.9	7.9	measure=observed_vs_expected|year=2026|side=opp|model=EB-r1|event=zero|min_valid_votes=1	ratio_ci_low	dec1	
+N118	Did anything change in 2026	11.8	11.8	measure=observed_vs_expected|year=2026|side=opp|model=EB-r1|event=zero|min_valid_votes=1	ratio_ci_high	dec1	
+N119	Did anything change in 2026	3.7	3.7	measure=observed_vs_expected|year=2022|side=opp|model=EB-r1|event=zero|min_valid_votes=1	ratio_ci_low	dec1	
+N120	Did anything change in 2026	5.1	5.1	measure=observed_vs_expected|year=2022|side=opp|model=EB-r1|event=zero|min_valid_votes=1	ratio_ci_high	dec1	
+N121	Did anything change in 2026	2.4	2.4	measure=observed_vs_expected|year=2026|side=pt|model=EB-r1|event=zero|min_valid_votes=1	ratio_ci_low	dec1	
+N122	Did anything change in 2026	26.6	26.6	measure=observed_vs_expected|year=2026|side=pt|model=EB-r1|event=zero|min_valid_votes=1	ratio_ci_high	dec1	
+N123	Did anything change in 2026	9.9	9.9	measure=observed_vs_expected|year=2022|side=opp|model=EB-place|event=zero|min_valid_votes=1	ratio	dec1	
+N124	Did anything change in 2026	13.3	13.3	measure=observed_vs_expected|year=2026|side=opp|model=EB-place|event=zero|min_valid_votes=1	ratio	dec1	
+N125	Did anything change in 2026	from 143	143	measure=zero_count|year=2022|side=opp|min_valid_votes=1	k	int	
+N126	Did anything change in 2026	to 106	106	measure=zero_count|year=2026|side=opp|min_valid_votes=1	k	int	
+N127	Did anything change in 2026	from 32.7	32.7	measure=observed_vs_expected|year=2022|side=opp|model=EB-r1|event=zero|min_valid_votes=1	expected	dec1	
+N128	Did anything change in 2026	to 10.8	10.8	measure=observed_vs_expected|year=2026|side=opp|model=EB-r1|event=zero|min_valid_votes=1	expected	dec1	
+N129	Did anything change in 2026	20.1%	20.1%	measure=local_share_around_zeros|year=2022|side=opp	value	pct1	
+N130	Did anything change in 2026	27.4%	27.4%	measure=local_share_around_zeros|year=2026|side=opp	value	pct1	
+N131	Did anything change in 2026	from 2.4 to 0.4 (PT expected)	2.4	measure=observed_vs_expected|year=2022|side=pt|model=EB-r1|event=zero|min_valid_votes=1	expected	dec1	
+N132	Did anything change in 2026	25.3%	25.3%	measure=local_share_around_zeros|year=2022|side=pt	value	pct1	
+N133	Did anything change in 2026	37.6%	37.6%	measure=local_share_around_zeros|year=2026|side=pt	value	pct1	
+N134	Did anything change in 2026	3.2%	3.2%	measure=register_village_zero_rate|year=2022|side=opp	share	pct1	
+N135	Did anything change in 2026	3.9%	3.9%	measure=register_village_zero_rate|year=2026|side=opp	share	pct1	

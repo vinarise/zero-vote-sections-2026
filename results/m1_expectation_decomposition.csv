@@ -1,0 +1,379 @@
+year,side,model,group,sections,observed_zeros,expected_zeros,share_of_model_total,median_q
+2026,pt,B-mun,all sections,499205,4,0.0966351716,1,3.028065841e-76
+2026,pt,B-mun,observed zero sections,4,4,1.151378766e-08,1.191469676e-07,3.697501789e-11
+2026,pt,B-mun,sections that were not zero,499201,0,0.09663516009,0.9999998809,3.024538373e-76
+2026,pt,B-mun,sections alone at their place (fallback),21746,3,0.09602167213,0.9936513853,1.20714444e-65
+2026,pt,B-mun,zero sections alone at their place,3,3,7.395003579e-11,7.65249697e-10,5.732850405e-16
+2026,pt,B-mun,sections whose place-mates gave the candidate 0 votes,1,0,1.284370325e-22,1.329091989e-21,1.284370325e-22
+2026,pt,B-mun,"of those, sections that were zero themselves",0,0,0,0,
+2026,pt,B-mun,"of those, sections that were not zero",1,0,1.284370325e-22,1.329091989e-21,1.284370325e-22
+2026,pt,B-mun,"zero sections with place-mates, place-mates not all zero",1,1,1.143983762e-08,1.183817179e-07,1.143983762e-08
+2026,pt,B-place,all sections,499205,4,1.859376892,1,1.413682069e-75
+2026,pt,B-place,observed zero sections,4,4,0.3067647673,0.1649825641,3.697501789e-11
+2026,pt,B-place,sections that were not zero,499201,0,1.552612125,0.8350174359,1.412285061e-75
+2026,pt,B-place,sections alone at their place (fallback),21746,3,0.09602167213,0.05164185514,1.20714444e-65
+2026,pt,B-place,zero sections alone at their place,3,3,7.395003579e-11,3.977140734e-11,5.732850405e-16
+2026,pt,B-place,sections whose place-mates gave the candidate 0 votes,1,0,1,0.5378145787,1
+2026,pt,B-place,"of those, sections that were zero themselves",0,0,0,0,
+2026,pt,B-place,"of those, sections that were not zero",1,0,1,0.5378145787,1
+2026,pt,B-place,"zero sections with place-mates, place-mates not all zero",1,1,0.3067647672,0.1649825641,0.3067647672
+2026,pt,BB-mun,all sections,499205,4,0.4411807286,1,1.606240824e-22
+2026,pt,BB-mun,observed zero sections,4,4,0.0002657161883,0.0006022842139,3.220111442e-06
+2026,pt,BB-mun,sections that were not zero,499201,0,0.4409150124,0.9993977158,1.605682245e-22
+2026,pt,BB-mun,sections alone at their place (fallback),21746,3,0.2959339584,0.6707771651,2.632367449e-19
+2026,pt,BB-mun,zero sections alone at their place,3,3,6.440259566e-06,1.459778079e-05,1.100351917e-07
+2026,pt,BB-mun,sections whose place-mates gave the candidate 0 votes,1,0,1.126634693e-06,2.553680657e-06,1.126634693e-06
+2026,pt,BB-mun,"of those, sections that were zero themselves",0,0,0,0,
+2026,pt,BB-mun,"of those, sections that were not zero",1,0,1.126634693e-06,2.553680657e-06,1.126634693e-06
+2026,pt,BB-mun,"zero sections with place-mates, place-mates not all zero",1,1,0.0002592759287,0.0005876864331,0.0002592759287
+2026,pt,BB-place,all sections,499205,4,2.316809273,1,1.325705114e-49
+2026,pt,BB-place,observed zero sections,4,4,0.3708732638,0.1600793247,3.220111442e-06
+2026,pt,BB-place,sections that were not zero,499201,0,1.945936009,0.8399206753,1.325389461e-49
+2026,pt,BB-place,sections alone at their place (fallback),21746,3,0.2959339584,0.1277334142,2.632367449e-19
+2026,pt,BB-place,zero sections alone at their place,3,3,6.440259566e-06,2.779797043e-06,1.100351917e-07
+2026,pt,BB-place,sections whose place-mates gave the candidate 0 votes,1,0,0.9798860158,0.4229463458,0.9798860158
+2026,pt,BB-place,"of those, sections that were zero themselves",0,0,0,0,
+2026,pt,BB-place,"of those, sections that were not zero",1,0,0.9798860158,0.4229463458,0.9798860158
+2026,pt,BB-place,"zero sections with place-mates, place-mates not all zero",1,1,0.3708668235,0.1600765449,0.3708668235
+2026,pt,BB-place (v1 code),all sections,499205,4,2.785006755,1,1.263862926e-42
+2026,pt,BB-place (v1 code),observed zero sections,4,4,0.4402511459,0.1580790227,1.842425965e-08
+2026,pt,BB-place (v1 code),sections that were not zero,499201,0,2.344755609,0.8419209773,1.26359958e-42
+2026,pt,BB-place (v1 code),sections alone at their place (fallback),21746,3,0.1360643931,0.04885603703,1.254201903e-33
+2026,pt,BB-place (v1 code),zero sections alone at their place,3,3,3.684851984e-08,1.323103428e-08,1.172831124e-10
+2026,pt,BB-place (v1 code),sections whose place-mates gave the candidate 0 votes,1,0,0.9853710784,0.3538128145,0.9853710784
+2026,pt,BB-place (v1 code),"of those, sections that were zero themselves",0,0,0,0,
+2026,pt,BB-place (v1 code),"of those, sections that were not zero",1,0,0.9853710784,0.3538128145,0.9853710784
+2026,pt,BB-place (v1 code),"zero sections with place-mates, place-mates not all zero",1,1,0.4402511091,0.1580790094,0.4402511091
+2026,pt,EB-place,all sections,499205,4,0.3808808753,1,2.804258269e-66
+2026,pt,EB-place,observed zero sections,4,4,0.07259976035,0.1906101489,3.220111442e-06
+2026,pt,EB-place,sections that were not zero,499201,0,0.308281115,0.8093898511,2.798139267e-66
+2026,pt,EB-place,sections alone at their place (fallback),21746,3,0.2959339584,0.7769724804,2.632367449e-19
+2026,pt,EB-place,zero sections alone at their place,3,3,6.440259566e-06,1.690885519e-05,1.100351917e-07
+2026,pt,EB-place,sections whose place-mates gave the candidate 0 votes,1,0,0.00130408512,0.003423866108,0.00130408512
+2026,pt,EB-place,"of those, sections that were zero themselves",0,0,0,0,
+2026,pt,EB-place,"of those, sections that were not zero",1,0,0.00130408512,0.003423866108,0.00130408512
+2026,pt,EB-place,"zero sections with place-mates, place-mates not all zero",1,1,0.07259332009,0.19059324,0.07259332009
+2026,pt,EB-r1,all sections,499205,4,0.3653879319,1,1.77056621e-45
+2026,pt,EB-r1,observed zero sections,4,4,0.0412984243,0.1130262406,0.003522126613
+2026,pt,EB-r1,sections that were not zero,499201,0,0.3240895076,0.8869737594,1.770539361e-45
+2026,pt,EB-r1,sections alone at their place (fallback),21746,3,0.2522346422,0.6903201235,2.484033167e-45
+2026,pt,EB-r1,zero sections alone at their place,3,3,0.007244173185,0.01982597824,0.001689458867
+2026,pt,EB-r1,sections whose place-mates gave the candidate 0 votes,1,0,0.004655089875,0.01274013033,0.004655089875
+2026,pt,EB-r1,"of those, sections that were zero themselves",0,0,0,0,
+2026,pt,EB-r1,"of those, sections that were not zero",1,0,0.004655089875,0.01274013033,0.004655089875
+2026,pt,EB-r1,"zero sections with place-mates, place-mates not all zero",1,1,0.03405425111,0.09320026235,0.03405425111
+2026,opp,B-mun,all sections,499205,106,0.3503420404,1,5.03379005e-75
+2026,opp,B-mun,observed zero sections,106,106,0.03342116559,0.09539581817,3.98419963e-19
+2026,opp,B-mun,sections that were not zero,499099,0,0.3169208748,0.9046041818,4.866300799e-75
+2026,opp,B-mun,sections alone at their place (fallback),21746,73,0.3398067516,0.9699285625,7.137875703e-35
+2026,opp,B-mun,zero sections alone at their place,73,73,0.03342116509,0.09539581676,3.418379864e-15
+2026,opp,B-mun,sections whose place-mates gave the candidate 0 votes,24,11,4.858283064e-10,1.386725686e-09,1.286423251e-28
+2026,opp,B-mun,"of those, sections that were zero themselves",11,11,4.85825418e-10,1.386717442e-09,6.325692818e-27
+2026,opp,B-mun,"of those, sections that were not zero",13,0,2.888380536e-15,8.244458851e-15,1.677745863e-40
+2026,opp,B-mun,"zero sections with place-mates, place-mates not all zero",22,22,1.040347524e-11,2.969519508e-11,2.244697339e-28
+2026,opp,B-place,all sections,499205,106,48.89148891,1,1.148640895e-74
+2026,opp,B-place,observed zero sections,106,106,16.34950446,0.3344038977,1.607109533e-07
+2026,opp,B-place,sections that were not zero,499099,0,32.54198446,0.6655961023,1.115932699e-74
+2026,opp,B-place,sections alone at their place (fallback),21746,73,0.3398067516,0.006950223018,7.137875703e-35
+2026,opp,B-place,zero sections alone at their place,73,73,0.03342116509,0.0006835783862,3.418379864e-15
+2026,opp,B-place,sections whose place-mates gave the candidate 0 votes,24,11,24,0.4908829846,1
+2026,opp,B-place,"of those, sections that were zero themselves",11,11,11,0.2249880346,1
+2026,opp,B-place,"of those, sections that were not zero",13,0,13,0.26589495,1
+2026,opp,B-place,"zero sections with place-mates, place-mates not all zero",22,22,5.316083293,0.1087322847,0.199765455
+2026,opp,BB-mun,all sections,499205,106,5.377656621,1,7.239527282e-23
+2026,opp,BB-mun,observed zero sections,106,106,0.2039699559,0.0379291521,5.101075746e-06
+2026,opp,BB-mun,sections that were not zero,499099,0,5.173686665,0.9620708479,7.184650194e-23
+2026,opp,BB-mun,sections alone at their place (fallback),21746,73,2.441617473,0.454030007,1.228203359e-11
+2026,opp,BB-mun,zero sections alone at their place,73,73,0.2003110945,0.03724876998,1.150200324e-05
+2026,opp,BB-mun,sections whose place-mates gave the candidate 0 votes,24,11,0.0006394441329,0.0001189075796,6.096252256e-07
+2026,opp,BB-mun,"of those, sections that were zero themselves",11,11,0.0005438737485,0.0001011358268,4.630541992e-06
+2026,opp,BB-mun,"of those, sections that were not zero",13,0,9.557038438e-05,1.777175285e-05,2.260141868e-11
+2026,opp,BB-mun,"zero sections with place-mates, place-mates not all zero",22,22,0.003114987664,0.0005792462933,8.654432838e-09
+2026,opp,BB-place,all sections,499205,106,65.37175514,1,3.336874309e-50
+2026,opp,BB-place,observed zero sections,106,106,18.1582047,0.2777683521,0.0006090248047
+2026,opp,BB-place,sections that were not zero,499099,0,47.21355044,0.7222316479,3.274566952e-50
+2026,opp,BB-place,sections alone at their place (fallback),21746,73,2.441617473,0.03734973105,1.228203359e-11
+2026,opp,BB-place,zero sections alone at their place,73,73,0.2003110945,0.003064184128,1.150200324e-05
+2026,opp,BB-place,sections whose place-mates gave the candidate 0 votes,24,11,23.64901724,0.3617620055,0.9851543148
+2026,opp,BB-place,"of those, sections that were zero themselves",11,11,10.8423514,0.1658568196,0.9847806648
+2026,opp,BB-place,"of those, sections that were not zero",13,0,12.80666585,0.195905186,0.9853850394
+2026,opp,BB-place,"zero sections with place-mates, place-mates not all zero",22,22,7.115542209,0.1088473484,0.2756576341
+2026,opp,BB-place (v1 code),all sections,499205,106,94.7051718,1,2.801843052e-43
+2026,opp,BB-place (v1 code),observed zero sections,106,106,20.65832996,0.2181330709,1.801082213e-05
+2026,opp,BB-place (v1 code),sections that were not zero,499099,0,74.04684185,0.7818669291,2.772498094e-43
+2026,opp,BB-place (v1 code),sections alone at their place (fallback),21746,73,0.5863065474,0.006190860923,2.008037585e-19
+2026,opp,BB-place (v1 code),zero sections alone at their place,73,73,0.0610672962,0.0006448147977,7.133909906e-09
+2026,opp,BB-place (v1 code),sections whose place-mates gave the candidate 0 votes,24,11,23.76310275,0.2509166321,0.9904473333
+2026,opp,BB-place (v1 code),"of those, sections that were zero themselves",11,11,10.89578263,0.1150494997,0.9895523864
+2026,opp,BB-place (v1 code),"of those, sections that were not zero",13,0,12.86732012,0.1358671325,0.9914438238
+2026,opp,BB-place (v1 code),"zero sections with place-mates, place-mates not all zero",22,22,9.70148003,0.1024387565,0.394322707
+2026,opp,EB-place,all sections,499205,106,7.988927787,1,7.255756178e-67
+2026,opp,EB-place,observed zero sections,106,106,1.629215977,0.2039342476,0.0001602167988
+2026,opp,EB-place,sections that were not zero,499099,0,6.35971181,0.7960657524,7.124807253e-67
+2026,opp,EB-place,sections alone at their place (fallback),21746,73,2.441617473,0.3056251775,1.228203359e-11
+2026,opp,EB-place,zero sections alone at their place,73,73,0.2003110945,0.02507358932,1.150200324e-05
+2026,opp,EB-place,sections whose place-mates gave the candidate 0 votes,24,11,1.237244196,0.1548698685,0.01779161008
+2026,opp,EB-place,"of those, sections that were zero themselves",11,11,0.9812592023,0.1228273967,0.02645619149
+2026,opp,EB-place,"of those, sections that were not zero",13,0,0.2559849939,0.03204247187,0.003957054862
+2026,opp,EB-place,"zero sections with place-mates, place-mates not all zero",22,22,0.4476456807,0.05603326161,0.004462734645
+2026,opp,EB-r1,all sections,499205,106,10.80940587,1,3.141299597e-51
+2026,opp,EB-r1,observed zero sections,106,106,2.585795243,0.2392171478,0.006086927657
+2026,opp,EB-r1,sections that were not zero,499099,0,8.223610632,0.7607828522,3.102513915e-51
+2026,opp,EB-r1,sections alone at their place (fallback),21746,73,8.462075219,0.7828436934,2.237054104e-20
+2026,opp,EB-r1,zero sections alone at their place,73,73,1.937877175,0.1792769369,0.008917112528
+2026,opp,EB-r1,sections whose place-mates gave the candidate 0 votes,24,11,0.3289830717,0.03043488935,0.002962306842
+2026,opp,EB-r1,"of those, sections that were zero themselves",11,11,0.2081352761,0.01925501536,0.008231163946
+2026,opp,EB-r1,"of those, sections that were not zero",13,0,0.1208477956,0.01117987399,0.0003753869263
+2026,opp,EB-r1,"zero sections with place-mates, place-mates not all zero",22,22,0.4397827917,0.04068519554,0.001611350594
+2022,pt,B-mun,all sections,472027,4,2.351904985,1,4.70238454e-75
+2022,pt,B-mun,observed zero sections,4,4,2,0.8503744892,0.5
+2022,pt,B-mun,sections that were not zero,472023,0,0.3519049847,0.1496255108,4.700310954e-75
+2022,pt,B-mun,sections alone at their place (fallback),23549,2,0.3448255642,0.1466154315,5.376482774e-70
+2022,pt,B-mun,zero sections alone at their place,2,2,8.617351586e-20,3.663987977e-20,4.308675793e-20
+2022,pt,B-mun,sections whose place-mates gave the candidate 0 votes,2,2,2,0.8503744892,1
+2022,pt,B-mun,"of those, sections that were zero themselves",2,2,2,0.8503744892,1
+2022,pt,B-mun,"of those, sections that were not zero",0,0,0,0,
+2022,pt,B-mun,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2022,pt,B-place,all sections,472027,4,2.424220384,1,2.351465897e-74
+2022,pt,B-place,observed zero sections,4,4,2,0.8250075008,0.5
+2022,pt,B-place,sections that were not zero,472023,0,0.4242203837,0.1749924992,2.346859261e-74
+2022,pt,B-place,sections alone at their place (fallback),23549,2,0.3448255642,0.1422418385,5.376482774e-70
+2022,pt,B-place,zero sections alone at their place,2,2,8.617351586e-20,3.554689848e-20,4.308675793e-20
+2022,pt,B-place,sections whose place-mates gave the candidate 0 votes,2,2,2,0.8250075008,1
+2022,pt,B-place,"of those, sections that were zero themselves",2,2,2,0.8250075008,1
+2022,pt,B-place,"of those, sections that were not zero",0,0,0,0,
+2022,pt,B-place,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2022,pt,BB-mun,all sections,472027,4,2.608142073,1,4.700086052e-22
+2022,pt,BB-mun,observed zero sections,4,4,1.999423662,0.7666084153,0.4997618308
+2022,pt,BB-mun,sections that were not zero,472023,0,0.6087184117,0.2333915847,4.699912994e-22
+2022,pt,BB-mun,sections alone at their place (fallback),23549,2,0.5383974803,0.2064295062,5.446826006e-20
+2022,pt,BB-mun,zero sections alone at their place,2,2,1.00209769e-09,3.842189812e-10,5.010488451e-10
+2022,pt,BB-mun,sections whose place-mates gave the candidate 0 votes,2,2,1.999423661,0.7666084149,0.9997118303
+2022,pt,BB-mun,"of those, sections that were zero themselves",2,2,1.999423661,0.7666084149,0.9997118303
+2022,pt,BB-mun,"of those, sections that were not zero",0,0,0,0,
+2022,pt,BB-mun,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2022,pt,BB-place,all sections,472027,4,2.658473806,1,1.130850368e-48
+2022,pt,BB-place,observed zero sections,4,4,1.999415966,0.7520916555,0.4997579829
+2022,pt,BB-place,sections that were not zero,472023,0,0.6590578402,0.2479083445,1.130360083e-48
+2022,pt,BB-place,sections alone at their place (fallback),23549,2,0.5383974803,0.2025212658,5.446826006e-20
+2022,pt,BB-place,zero sections alone at their place,2,2,1.00209769e-09,3.769447297e-10,5.010488451e-10
+2022,pt,BB-place,sections whose place-mates gave the candidate 0 votes,2,2,1.999415965,0.7520916551,0.9997079824
+2022,pt,BB-place,"of those, sections that were zero themselves",2,2,1.999415965,0.7520916551,0.9997079824
+2022,pt,BB-place,"of those, sections that were not zero",0,0,0,0,
+2022,pt,BB-place,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2022,pt,BB-place (v1 code),all sections,472027,4,2.705894868,1,1.982108141e-41
+2022,pt,BB-place (v1 code),observed zero sections,4,4,1.999421941,0.7389133867,0.4997609705
+2022,pt,BB-place (v1 code),sections that were not zero,472023,0,0.7064729271,0.2610866133,1.98198465e-41
+2022,pt,BB-place (v1 code),sections alone at their place (fallback),23549,2,0.4089351997,0.151127527,4.71045882e-34
+2022,pt,BB-place (v1 code),zero sections alone at their place,2,2,3.617839095e-13,1.337021308e-13,1.808919548e-13
+2022,pt,BB-place (v1 code),sections whose place-mates gave the candidate 0 votes,2,2,1.999421941,0.7389133867,0.9997109705
+2022,pt,BB-place (v1 code),"of those, sections that were zero themselves",2,2,1.999421941,0.7389133867,0.9997109705
+2022,pt,BB-place (v1 code),"of those, sections that were not zero",0,0,0,0,
+2022,pt,BB-place (v1 code),"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2022,pt,EB-place,all sections,472027,4,2.579491474,1,1.053212775e-64
+2022,pt,EB-place,observed zero sections,4,4,1.999446154,0.7751319102,0.4997674528
+2022,pt,EB-place,sections that were not zero,472023,0,0.5800453204,0.2248680898,1.053050974e-64
+2022,pt,EB-place,sections alone at their place (fallback),23549,2,0.5383974803,0.2087223337,5.446826006e-20
+2022,pt,EB-place,zero sections alone at their place,2,2,1.00209769e-09,3.884865293e-10,5.010488451e-10
+2022,pt,EB-place,sections whose place-mates gave the candidate 0 votes,2,2,1.999446153,0.7751319098,0.9997230765
+2022,pt,EB-place,"of those, sections that were zero themselves",2,2,1.999446153,0.7751319098,0.9997230765
+2022,pt,EB-place,"of those, sections that were not zero",0,0,0,0,
+2022,pt,EB-place,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2022,pt,EB-r1,all sections,472027,4,2.415843244,1,2.176641632e-50
+2022,pt,EB-r1,observed zero sections,4,4,1.999620844,0.827711338,0.4998583845
+2022,pt,EB-r1,sections that were not zero,472023,0,0.4162224003,0.172288662,2.176037575e-50
+2022,pt,EB-r1,sections alone at their place (fallback),23549,2,0.3951647988,0.1635722018,1.079743288e-51
+2022,pt,EB-r1,zero sections alone at their place,2,2,0.0001971834893,8.162097841e-05,9.859174464e-05
+2022,pt,EB-r1,sections whose place-mates gave the candidate 0 votes,2,2,1.999423661,0.827629717,0.9997118303
+2022,pt,EB-r1,"of those, sections that were zero themselves",2,2,1.999423661,0.827629717,0.9997118303
+2022,pt,EB-r1,"of those, sections that were not zero",0,0,0,0,
+2022,pt,EB-r1,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2022,opp,B-mun,all sections,472027,143,0.6975024116,1,6.436443347e-79
+2022,opp,B-mun,observed zero sections,143,143,0.111633848,0.1600479742,1.69721898e-09
+2022,opp,B-mun,sections that were not zero,471884,0,0.5858685637,0.8399520258,6.306807495e-79
+2022,opp,B-mun,sections alone at their place (fallback),23549,115,0.6487834133,0.9301522152,1.070711351e-31
+2022,opp,B-mun,zero sections alone at their place,115,115,0.1116338472,0.1600479731,4.24747486e-08
+2022,opp,B-mun,sections whose place-mates gave the candidate 0 votes,18,8,2.889772567e-10,4.143028782e-10,2.978761351e-22
+2022,opp,B-mun,"of those, sections that were zero themselves",8,8,4.415865039e-19,6.330967413e-19,2.500695379e-25
+2022,opp,B-mun,"of those, sections that were not zero",10,0,2.889772563e-10,4.143028776e-10,2.690340519e-16
+2022,opp,B-mun,"zero sections with place-mates, place-mates not all zero",20,20,7.433893662e-10,1.065787521e-09,3.427497652e-24
+2022,opp,B-place,all sections,472027,143,43.60855682,1,1.265389614e-78
+2022,opp,B-place,observed zero sections,143,143,11.24197261,0.2577928148,8.659225375e-07
+2022,opp,B-place,sections that were not zero,471884,0,32.36658421,0.7422071852,1.22226331e-78
+2022,opp,B-place,sections alone at their place (fallback),23549,115,0.6487834133,0.01487743371,1.070711351e-31
+2022,opp,B-place,zero sections alone at their place,115,115,0.1116338472,0.002559906939,4.24747486e-08
+2022,opp,B-place,sections whose place-mates gave the candidate 0 votes,18,8,18,0.412763029,1
+2022,opp,B-place,"of those, sections that were zero themselves",8,8,8,0.1834502351,1
+2022,opp,B-place,"of those, sections that were not zero",10,0,10,0.2293127939,1
+2022,opp,B-place,"zero sections with place-mates, place-mates not all zero",20,20,3.130338763,0.07178267274,0.04319819248
+2022,opp,BB-mun,all sections,472027,143,14.79277888,1,2.901936216e-23
+2022,opp,BB-mun,observed zero sections,143,143,0.8934548464,0.06039803972,0.0001258194503
+2022,opp,BB-mun,sections that were not zero,471884,0,13.89932403,0.9396019603,2.90106785e-23
+2022,opp,BB-mun,sections alone at their place (fallback),23549,115,7.127897519,0.4818497982,8.839847229e-11
+2022,opp,BB-mun,zero sections alone at their place,115,115,0.8880439561,0.06003226055,0.00051046661
+2022,opp,BB-mun,sections whose place-mates gave the candidate 0 votes,18,8,0.003947998729,0.0002668868886,3.52891879e-07
+2022,opp,BB-mun,"of those, sections that were zero themselves",8,8,1.036105797e-05,7.004132252e-07,1.870760434e-08
+2022,opp,BB-mun,"of those, sections that were not zero",10,0,0.003937637671,0.0002661864754,8.979527933e-06
+2022,opp,BB-mun,"zero sections with place-mates, place-mates not all zero",20,20,0.005400529299,0.0003650787551,1.707416588e-06
+2022,opp,BB-place,all sections,472027,143,64.01974755,1,8.773212736e-53
+2022,opp,BB-place,observed zero sections,143,143,13.06336527,0.204052121,0.00158293802
+2022,opp,BB-place,sections that were not zero,471884,0,50.95638228,0.795947879,8.582818362e-53
+2022,opp,BB-place,sections alone at their place (fallback),23549,115,7.127897519,0.1113390445,8.839847229e-11
+2022,opp,BB-place,zero sections alone at their place,115,115,0.8880439561,0.01387140671,0.00051046661
+2022,opp,BB-place,sections whose place-mates gave the candidate 0 votes,18,8,17.72437619,0.276857952,0.9847432527
+2022,opp,BB-place,"of those, sections that were zero themselves",8,8,7.877361603,0.1230458086,0.9845014537
+2022,opp,BB-place,"of those, sections that were not zero",10,0,9.847014591,0.1538121434,0.9851409136
+2022,opp,BB-place,"zero sections with place-mates, place-mates not all zero",20,20,4.297959713,0.06713490566,0.09542786512
+2022,opp,BB-place (v1 code),all sections,472027,143,94.63448623,1,1.598455969e-44
+2022,opp,BB-place (v1 code),observed zero sections,143,143,14.3667782,0.1518133481,0.0001230157921
+2022,opp,BB-place (v1 code),sections that were not zero,471884,0,80.26770802,0.8481866519,1.557638612e-44
+2022,opp,BB-place (v1 code),sections alone at their place (fallback),23549,115,1.582320943,0.01672034167,2.087784865e-17
+2022,opp,BB-place (v1 code),zero sections alone at their place,115,115,0.2927088056,0.003093045858,2.036457256e-05
+2022,opp,BB-place (v1 code),sections whose place-mates gave the candidate 0 votes,18,8,17.81302225,0.1882297137,0.9900244825
+2022,opp,BB-place (v1 code),"of those, sections that were zero themselves",8,8,7.915048514,0.08363809886,0.9894426467
+2022,opp,BB-place (v1 code),"of those, sections that were not zero",10,0,9.897973733,0.1045916148,0.9910770503
+2022,opp,BB-place (v1 code),"zero sections with place-mates, place-mates not all zero",20,20,6.159020882,0.06508220341,0.1747753142
+2022,opp,EB-place,all sections,472027,143,14.47261835,1,3.084767144e-70
+2022,opp,EB-place,observed zero sections,143,143,1.712507018,0.1183273805,0.000906671972
+2022,opp,EB-place,sections that were not zero,471884,0,12.76011133,0.8816726195,2.97784613e-70
+2022,opp,EB-place,sections alone at their place (fallback),23549,115,7.127897519,0.4925091885,8.839847229e-11
+2022,opp,EB-place,zero sections alone at their place,115,115,0.8880439561,0.06136028288,0.00051046661
+2022,opp,EB-place,sections whose place-mates gave the candidate 0 votes,18,8,0.6495384938,0.04488051008,0.01219502453
+2022,opp,EB-place,"of those, sections that were zero themselves",8,8,0.09374086012,0.006477118227,0.00756179629
+2022,opp,EB-place,"of those, sections that were not zero",10,0,0.5557976337,0.03840339185,0.03434133638
+2022,opp,EB-place,"zero sections with place-mates, place-mates not all zero",20,20,0.7307222016,0.05048997935,0.01338404561
+2022,opp,EB-r1,all sections,472027,143,32.71085702,1,2.082846388e-48
+2022,opp,EB-r1,observed zero sections,143,143,7.977518301,0.2438798316,0.03061815627
+2022,opp,EB-r1,sections that were not zero,471884,0,24.73333871,0.7561201684,2.034428441e-48
+2022,opp,EB-r1,sections alone at their place (fallback),23549,115,27.13403558,0.8295116073,1.79917934e-16
+2022,opp,EB-r1,zero sections alone at their place,115,115,7.388474859,0.2258722496,0.03445589349
+2022,opp,EB-r1,sections whose place-mates gave the candidate 0 votes,18,8,0.3653896968,0.0111702881,0.005878816022
+2022,opp,EB-r1,"of those, sections that were zero themselves",8,8,0.0713774888,0.002182073333,0.005878816022
+2022,opp,EB-r1,"of those, sections that were not zero",10,0,0.294012208,0.008988214764,0.005984390165
+2022,opp,EB-r1,"zero sections with place-mates, place-mates not all zero",20,20,0.517665953,0.01582550872,0.01795909613
+2018,pt,B-mun,all sections,454447,4,2.139087722,1,1.995618153e-52
+2018,pt,B-mun,observed zero sections,4,4,1.339931683e-06,6.26403335e-07,1.042964498e-07
+2018,pt,B-mun,sections that were not zero,454443,0,2.139086383,0.9999993736,1.992410187e-52
+2018,pt,B-mun,sections alone at their place (fallback),24026,4,0.9804071768,0.4583295797,3.94202515e-63
+2018,pt,B-mun,zero sections alone at their place,4,4,1.339931683e-06,6.26403335e-07,1.042964498e-07
+2018,pt,B-mun,sections whose place-mates gave the candidate 0 votes,0,0,0,0,
+2018,pt,B-mun,"of those, sections that were zero themselves",0,0,0,0,
+2018,pt,B-mun,"of those, sections that were not zero",0,0,0,0,
+2018,pt,B-mun,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2018,pt,B-place,all sections,454447,4,3.338710797,1,7.947638317e-52
+2018,pt,B-place,observed zero sections,4,4,1.339931683e-06,4.013320604e-07,1.042964498e-07
+2018,pt,B-place,sections that were not zero,454443,0,3.338709457,0.9999995987,7.937104849e-52
+2018,pt,B-place,sections alone at their place (fallback),24026,4,0.9804071768,0.2936484279,3.94202515e-63
+2018,pt,B-place,zero sections alone at their place,4,4,1.339931683e-06,4.013320604e-07,1.042964498e-07
+2018,pt,B-place,sections whose place-mates gave the candidate 0 votes,0,0,0,0,
+2018,pt,B-place,"of those, sections that were zero themselves",0,0,0,0,
+2018,pt,B-place,"of those, sections that were not zero",0,0,0,0,
+2018,pt,B-place,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2018,pt,BB-mun,all sections,454447,4,4.58447831,1,1.178860928e-14
+2018,pt,BB-mun,observed zero sections,4,4,0.0006021025592,0.0001313350219,6.459635453e-06
+2018,pt,BB-mun,sections that were not zero,454443,0,4.583876207,0.999868665,1.178860928e-14
+2018,pt,BB-mun,sections alone at their place (fallback),24026,4,1.961378531,0.4278302565,1.045916164e-16
+2018,pt,BB-mun,zero sections alone at their place,4,4,0.0006021025592,0.0001313350219,6.459635453e-06
+2018,pt,BB-mun,sections whose place-mates gave the candidate 0 votes,0,0,0,0,
+2018,pt,BB-mun,"of those, sections that were zero themselves",0,0,0,0,
+2018,pt,BB-mun,"of those, sections that were not zero",0,0,0,0,
+2018,pt,BB-mun,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2018,pt,BB-place,all sections,454447,4,4.815766014,1,7.769602602e-33
+2018,pt,BB-place,observed zero sections,4,4,0.0006021025592,0.00012502737,6.459635453e-06
+2018,pt,BB-place,sections that were not zero,454443,0,4.815163911,0.9998749726,7.761480169e-33
+2018,pt,BB-place,sections alone at their place (fallback),24026,4,1.961378531,0.407282772,1.045916164e-16
+2018,pt,BB-place,zero sections alone at their place,4,4,0.0006021025592,0.00012502737,6.459635453e-06
+2018,pt,BB-place,sections whose place-mates gave the candidate 0 votes,0,0,0,0,
+2018,pt,BB-place,"of those, sections that were zero themselves",0,0,0,0,
+2018,pt,BB-place,"of those, sections that were not zero",0,0,0,0,
+2018,pt,BB-place,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2018,pt,BB-place (v1 code),all sections,454447,4,4.615780151,1,3.835072513e-28
+2018,pt,BB-place (v1 code),observed zero sections,4,4,3.729784597e-05,8.080507466e-06,4.685674179e-06
+2018,pt,BB-place (v1 code),sections that were not zero,454443,0,4.615742853,0.9999919195,3.833122885e-28
+2018,pt,BB-place (v1 code),sections alone at their place (fallback),24026,4,1.189901154,0.2577898243,1.061675219e-29
+2018,pt,BB-place (v1 code),zero sections alone at their place,4,4,3.729784597e-05,8.080507466e-06,4.685674179e-06
+2018,pt,BB-place (v1 code),sections whose place-mates gave the candidate 0 votes,0,0,0,0,
+2018,pt,BB-place (v1 code),"of those, sections that were zero themselves",0,0,0,0,
+2018,pt,BB-place (v1 code),"of those, sections that were not zero",0,0,0,0,
+2018,pt,BB-place (v1 code),"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2018,pt,EB-place,all sections,454447,4,3.526108443,1,1.864362864e-44
+2018,pt,EB-place,observed zero sections,4,4,0.0006021025592,0.0001707555422,6.459635453e-06
+2018,pt,EB-place,sections that were not zero,454443,0,3.525506341,0.9998292445,1.863207446e-44
+2018,pt,EB-place,sections alone at their place (fallback),24026,4,1.961378531,0.5562445294,1.045916164e-16
+2018,pt,EB-place,zero sections alone at their place,4,4,0.0006021025592,0.0001707555422,6.459635453e-06
+2018,pt,EB-place,sections whose place-mates gave the candidate 0 votes,0,0,0,0,
+2018,pt,EB-place,"of those, sections that were zero themselves",0,0,0,0,
+2018,pt,EB-place,"of those, sections that were not zero",0,0,0,0,
+2018,pt,EB-place,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2018,pt,EB-r1,all sections,454447,4,4.947861054,1,1.966791037e-26
+2018,pt,EB-r1,observed zero sections,4,4,0.02477597913,0.005007412064,0.0001762360739
+2018,pt,EB-r1,sections that were not zero,454443,0,4.923085075,0.9949925879,1.966137417e-26
+2018,pt,EB-r1,sections alone at their place (fallback),24026,4,1.278917981,0.2584789603,2.77614028e-44
+2018,pt,EB-r1,zero sections alone at their place,4,4,0.02477597913,0.005007412064,0.0001762360739
+2018,pt,EB-r1,sections whose place-mates gave the candidate 0 votes,0,0,0,0,
+2018,pt,EB-r1,"of those, sections that were zero themselves",0,0,0,0,
+2018,pt,EB-r1,"of those, sections that were not zero",0,0,0,0,
+2018,pt,EB-r1,"zero sections with place-mates, place-mates not all zero",0,0,0,0,
+2018,opp,B-mun,all sections,454447,328,3.475803149,1,4.948218996e-91
+2018,opp,B-mun,observed zero sections,328,328,0.3646599558,0.1049138689,5.288951141e-09
+2018,opp,B-mun,sections that were not zero,454119,0,3.111143194,0.8950861311,4.248034515e-91
+2018,opp,B-mun,sections alone at their place (fallback),24026,251,1.487686022,0.4280121624,6.632369451e-27
+2018,opp,B-mun,zero sections alone at their place,251,251,0.2056392108,0.05916307742,2.127923247e-08
+2018,opp,B-mun,sections whose place-mates gave the candidate 0 votes,52,14,1.325372495e-05,3.813140268e-06,1.76587873e-18
+2018,opp,B-mun,"of those, sections that were zero themselves",14,14,1.633658356e-08,4.700088829e-09,1.608466076e-18
+2018,opp,B-mun,"of those, sections that were not zero",38,0,1.323738837e-05,3.808440179e-06,1.76587873e-18
+2018,opp,B-mun,"zero sections with place-mates, place-mates not all zero",63,63,0.1590207286,0.04575078674,2.432416968e-15
+2018,opp,B-place,all sections,454447,328,133.5066662,1,4.553795859e-89
+2018,opp,B-place,observed zero sections,328,328,28.84008381,0.2160198036,2.253892142e-06
+2018,opp,B-place,sections that were not zero,454119,0,104.6665824,0.7839801964,3.953400196e-89
+2018,opp,B-place,sections alone at their place (fallback),24026,251,1.487686022,0.0111431591,6.632369451e-27
+2018,opp,B-place,zero sections alone at their place,251,251,0.2056392108,0.001540291707,2.127923247e-08
+2018,opp,B-place,sections whose place-mates gave the candidate 0 votes,52,14,52,0.3894936596,1
+2018,opp,B-place,"of those, sections that were zero themselves",14,14,14,0.1048636776,1
+2018,opp,B-place,"of those, sections that were not zero",38,0,38,0.284629982,1
+2018,opp,B-place,"zero sections with place-mates, place-mates not all zero",63,63,14.6344446,0.1096158343,0.174654736
+2018,opp,BB-mun,all sections,454447,328,109.2025992,1,2.731618572e-22
+2018,opp,BB-mun,observed zero sections,328,328,3.972893412,0.03638094186,0.0008656136508
+2018,opp,BB-mun,sections that were not zero,454119,0,105.2297058,0.9636190581,2.654935545e-22
+2018,opp,BB-mun,sections alone at their place (fallback),24026,251,36.17986832,0.3313095897,2.657952053e-08
+2018,opp,BB-mun,zero sections alone at their place,251,251,3.040153107,0.02783956728,0.00140574574
+2018,opp,BB-mun,sections whose place-mates gave the candidate 0 votes,52,14,0.07904470042,0.0007238353392,5.411863799e-05
+2018,opp,BB-mun,"of those, sections that were zero themselves",14,14,0.003871891696,3.545603974e-05,1.818888435e-05
+2018,opp,BB-mun,"of those, sections that were not zero",38,0,0.07517280872,0.0006883792995,0.0001911527222
+2018,opp,BB-mun,"zero sections with place-mates, place-mates not all zero",63,63,0.9288684128,0.008505918539,0.0004899194167
+2018,opp,BB-place,all sections,454447,328,206.6181775,1,6.401618548e-56
+2018,opp,BB-place,observed zero sections,328,328,35.27891047,0.1707444664,0.004435445331
+2018,opp,BB-place,sections that were not zero,454119,0,171.3392671,0.8292555336,5.996834865e-56
+2018,opp,BB-place,sections alone at their place (fallback),24026,251,36.17986832,0.1751049629,2.657952053e-08
+2018,opp,BB-place,zero sections alone at their place,251,251,3.040153107,0.0147138705,0.00140574574
+2018,opp,BB-place,sections whose place-mates gave the candidate 0 votes,52,14,51.21445841,0.247870052,0.9843731042
+2018,opp,BB-place,"of those, sections that were zero themselves",14,14,13.78849491,0.06673418123,0.9838392918
+2018,opp,BB-place,"of those, sections that were not zero",38,0,37.42596351,0.1811358708,0.9846518183
+2018,opp,BB-place,"zero sections with place-mates, place-mates not all zero",63,63,18.45026245,0.08929641464,0.2299679315
+2018,opp,BB-place (v1 code),all sections,454447,328,279.450532,1,2.231302924e-45
+2018,opp,BB-place (v1 code),observed zero sections,328,328,38.82172689,0.1389216425,0.0002203334317
+2018,opp,BB-place (v1 code),sections that were not zero,454119,0,240.6288051,0.8610783575,2.105181389e-45
+2018,opp,BB-place (v1 code),sections alone at their place (fallback),24026,251,5.949130959,0.02128867287,4.855113445e-14
+2018,opp,BB-place (v1 code),zero sections alone at their place,251,251,0.7984815552,0.002857327018,1.966815781e-05
+2018,opp,BB-place (v1 code),sections whose place-mates gave the candidate 0 votes,52,14,51.49555053,0.1842742977,0.9903965181
+2018,opp,BB-place (v1 code),"of those, sections that were zero themselves",14,14,13.86394156,0.04961143378,0.9916538603
+2018,opp,BB-place (v1 code),"of those, sections that were not zero",38,0,37.63160896,0.1346628639,0.9900206691
+2018,opp,BB-place (v1 code),"zero sections with place-mates, place-mates not all zero",63,63,24.15930377,0.08645288166,0.3898981639
+2018,opp,EB-place,all sections,454447,328,79.14657822,1,3.175126714e-78
+2018,opp,EB-place,observed zero sections,328,328,9.3397309,0.118005492,0.00410203583
+2018,opp,EB-place,sections that were not zero,454119,0,69.80684732,0.881994508,2.797753289e-78
+2018,opp,EB-place,sections alone at their place (fallback),24026,251,36.17986832,0.4571248579,2.657952053e-08
+2018,opp,EB-place,zero sections alone at their place,251,251,3.040153107,0.0384116809,0.00140574574
+2018,opp,EB-place,sections whose place-mates gave the candidate 0 votes,52,14,4.818009725,0.06087451705,0.05292358879
+2018,opp,EB-place,"of those, sections that were zero themselves",14,14,1.331692484,0.01682564823,0.07898513313
+2018,opp,EB-place,"of those, sections that were not zero",38,0,3.486317241,0.04404886881,0.0417630847
+2018,opp,EB-place,"zero sections with place-mates, place-mates not all zero",63,63,4.967885309,0.06276816282,0.03617985063
+2018,opp,EB-r1,all sections,454447,328,184.639249,1,1.112162378e-59
+2018,opp,EB-r1,observed zero sections,328,328,29.4545067,0.1595246236,0.06167576126
+2018,opp,EB-r1,sections that were not zero,454119,0,155.1847423,0.8404753764,1.031675541e-59
+2018,opp,EB-r1,sections alone at their place (fallback),24026,251,125.0113649,0.677057373,1.25614761e-12
+2018,opp,EB-r1,zero sections alone at their place,251,251,23.00322062,0.1245846739,0.06973238372
+2018,opp,EB-r1,sections whose place-mates gave the candidate 0 votes,52,14,2.579588994,0.01397096776,0.02534444738
+2018,opp,EB-r1,"of those, sections that were zero themselves",14,14,0.6953424844,0.003765951651,0.04814004105
+2018,opp,EB-r1,"of those, sections that were not zero",38,0,1.884246509,0.01020501611,0.01541899964
+2018,opp,EB-r1,"zero sections with place-mates, place-mates not all zero",63,63,5.75594359,0.03117399807,0.05480892877

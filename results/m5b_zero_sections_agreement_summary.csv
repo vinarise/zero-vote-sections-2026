@@ -1,0 +1,5 @@
+label_set,zero_for,sections,agree_coarse,lab_indigenous,ext_indigenous,ext_village,ext_urban_indigenous_school,both_indigenous,external_only,lab_only,kappa_indigenous
+register-based (counted),opp,102,88,65,64,64,0,,,,
+register-based (counted),pt,4,3,0,0,0,0,,,,
+text fallback (not counted),opp,4,4,3,3,3,0,,,,
+register-based (counted),"both sides, indigenous yes or no",106,103,65,64,,,63,1,2,0.940605155

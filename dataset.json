@@ -1,0 +1,2809 @@
+{
+ "id": "ds_2026_br-zero-vote-sections",
+ "version": "3.1.0",
+ "title": {
+  "en": "Zero-vote sections in Brazil's presidential runoffs, 2018, 2022 and 2026"
+ },
+ "description": {
+  "en": "Counts of sections where a runoff candidate had no votes, model expectations, consistency checks and register categories, at national, regional and state level, with the research ledger they come from. No section, polling place or community is named."
+ },
+ "license": "CC-BY-4.0",
+ "published_at": "2026-11-01T00:00:00Z",
+ "temporal_coverage": "2018-10-28/2026-10-25",
+ "spatial_coverage": "Brazil and voters abroad",
+ "keywords": [
+  "elections",
+  "Brazil",
+  "runoff",
+  "zero-vote sections",
+  "open data"
+ ],
+ "files": [
+  {
+   "path": "finding/br_states.json",
+   "media_type": "application/json",
+   "bytes": 40460,
+   "sha256": "2a0271228796a5e7f8eb94ac7cede6da8e6854c1519a6403480a776704024969"
+  },
+  {
+   "path": "finding/places_2026.json",
+   "media_type": "application/json",
+   "bytes": 389754,
+   "sha256": "addc117abe83cc763aeae1184699957bd549baad040b061d10b2a7d978e0b603"
+  },
+  {
+   "path": "finding/zero_by_state.json",
+   "media_type": "application/json",
+   "bytes": 3375,
+   "sha256": "23581dc52999ecc59c02aa387f5e401adb22e0a728f3c6a68408eb5bbe044a40"
+  },
+  {
+   "path": "interactive/README.md",
+   "media_type": "text/markdown",
+   "bytes": 1963,
+   "sha256": "a2477fba9a38910ab2d94ea0308a6ea37d8d6b05d23112cd46e4abb4a9beb58d"
+  },
+  {
+   "path": "interactive/SOURCES.md",
+   "media_type": "text/markdown",
+   "bytes": 23708,
+   "sha256": "81697ca12f970056f8b784290c0595301367a20fa6d023eecb3db401fa7d0570"
+  },
+  {
+   "path": "interactive/municipal_2026_2t.csv",
+   "media_type": "text/csv",
+   "bytes": 503028,
+   "sha256": "9440d156689b6ef0a24b7cc17e54c06a68898d5623cb4f981f8dd3a5db15331d",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "state",
+      "type": "string"
+     },
+     {
+      "name": "municipality",
+      "type": "string"
+     },
+     {
+      "name": "municipality_code_tse",
+      "type": "integer"
+     },
+     {
+      "name": "ibge_code",
+      "type": "integer"
+     },
+     {
+      "name": "units_pooled",
+      "type": "integer"
+     },
+     {
+      "name": "region",
+      "type": "string"
+     },
+     {
+      "name": "sections_with_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "eligible_voters",
+      "type": "integer"
+     },
+     {
+      "name": "votes_cast",
+      "type": "integer"
+     },
+     {
+      "name": "valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "votes_lula",
+      "type": "integer"
+     },
+     {
+      "name": "votes_flavio",
+      "type": "integer"
+     },
+     {
+      "name": "share_lula",
+      "type": "number"
+     },
+     {
+      "name": "share_flavio",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "interactive/summary_by_year.json",
+   "media_type": "application/json",
+   "bytes": 137878,
+   "sha256": "8929ff959d6afab9c168da93828678aced8fc6d15a01a7d3b881ece99b117191"
+  },
+  {
+   "path": "interactive/zero_sections_by_category.csv",
+   "media_type": "text/csv",
+   "bytes": 1673,
+   "sha256": "eeb2decf7fb4f0ce148ea99720a276cbc00086c896076405094ae038e7095913",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "scope",
+      "type": "string"
+     },
+     {
+      "name": "method",
+      "type": "string"
+     },
+     {
+      "name": "place_category",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "zero_sections_lula",
+      "type": "integer"
+     },
+     {
+      "name": "zero_sections_flavio",
+      "type": "integer"
+     },
+     {
+      "name": "suppressed",
+      "type": "boolean"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results.csv",
+   "media_type": "text/csv",
+   "bytes": 3381757,
+   "sha256": "ab5616670d0d9587610592956f84511f5a50f5a39c77176adba1e3065d01a5a3",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "row_id",
+      "type": "string"
+     },
+     {
+      "name": "run_id",
+      "type": "string"
+     },
+     {
+      "name": "run_at",
+      "type": "string"
+     },
+     {
+      "name": "arm",
+      "type": "string"
+     },
+     {
+      "name": "measure",
+      "type": "string"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "model",
+      "type": "string"
+     },
+     {
+      "name": "event",
+      "type": "string"
+     },
+     {
+      "name": "min_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "category",
+      "type": "string"
+     },
+     {
+      "name": "scope",
+      "type": "string"
+     },
+     {
+      "name": "run_class",
+      "type": "string"
+     },
+     {
+      "name": "prereg_status",
+      "type": "string"
+     },
+     {
+      "name": "status",
+      "type": "string"
+     },
+     {
+      "name": "n",
+      "type": "integer"
+     },
+     {
+      "name": "n_label",
+      "type": "string"
+     },
+     {
+      "name": "k",
+      "type": "integer"
+     },
+     {
+      "name": "share",
+      "type": "number"
+     },
+     {
+      "name": "share_ci_low",
+      "type": "number"
+     },
+     {
+      "name": "share_ci_high",
+      "type": "number"
+     },
+     {
+      "name": "value",
+      "type": "number"
+     },
+     {
+      "name": "value_ci_low",
+      "type": "integer"
+     },
+     {
+      "name": "value_ci_high",
+      "type": "integer"
+     },
+     {
+      "name": "value_unit",
+      "type": "string"
+     },
+     {
+      "name": "ci_method",
+      "type": "string"
+     },
+     {
+      "name": "expected",
+      "type": "number"
+     },
+     {
+      "name": "expected_sd",
+      "type": "number"
+     },
+     {
+      "name": "upper_99_9_exact",
+      "type": "integer"
+     },
+     {
+      "name": "p_exact_ge_observed",
+      "type": "number"
+     },
+     {
+      "name": "u1_fires_exact",
+      "type": "boolean"
+     },
+     {
+      "name": "ratio",
+      "type": "number"
+     },
+     {
+      "name": "ratio_ci_low",
+      "type": "number"
+     },
+     {
+      "name": "ratio_ci_high",
+      "type": "number"
+     },
+     {
+      "name": "log_score",
+      "type": "number"
+     },
+     {
+      "name": "brier",
+      "type": "number"
+     },
+     {
+      "name": "votes_other",
+      "type": "integer"
+     },
+     {
+      "name": "source_stage",
+      "type": "string"
+     },
+     {
+      "name": "source_table",
+      "type": "string"
+     },
+     {
+      "name": "source_table_sha256",
+      "type": "string"
+     },
+     {
+      "name": "inputs_sha256",
+      "type": "string"
+     },
+     {
+      "name": "harness_sha256",
+      "type": "string"
+     },
+     {
+      "name": "environment_sha256",
+      "type": "string"
+     },
+     {
+      "name": "config_sha256",
+      "type": "string"
+     },
+     {
+      "name": "seed",
+      "type": "integer"
+     },
+     {
+      "name": "note",
+      "type": "string"
+     },
+     {
+      "name": "supersedes",
+      "type": "string"
+     },
+     {
+      "name": "expectation_held",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/bb_phi_by_state.csv",
+   "media_type": "text/csv",
+   "bytes": 12217,
+   "sha256": "372e8bccd8fd1ef88e161fdbba148a854529a9ab395470bbf607be3cf06a6e0e",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "mean",
+      "type": "string"
+     },
+     {
+      "name": "SG_UF",
+      "type": "string"
+     },
+     {
+      "name": "phi",
+      "type": "number"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/calibration.csv",
+   "media_type": "text/csv",
+   "bytes": 71320,
+   "sha256": "6732f603f23335461bb6bffa8bc9ab78fbfd0ec082a51fff90811c36773a6a55",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "model",
+      "type": "string"
+     },
+     {
+      "name": "scheme",
+      "type": "string"
+     },
+     {
+      "name": "bin",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "expected",
+      "type": "number"
+     },
+     {
+      "name": "observed",
+      "type": "integer"
+     },
+     {
+      "name": "q_min",
+      "type": "number"
+     },
+     {
+      "name": "q_max",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/candidates.csv",
+   "media_type": "text/csv",
+   "bytes": 503,
+   "sha256": "7ce51a7b6e1cfeadd2afa3a989fb1dde9447b6b33e0a41eaa8ec785d2ce06584",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "round",
+      "type": "integer"
+     },
+     {
+      "name": "pt_number",
+      "type": "integer"
+     },
+     {
+      "name": "pt_name",
+      "type": "string"
+     },
+     {
+      "name": "opp_number",
+      "type": "integer"
+     },
+     {
+      "name": "opp_name",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "vote_rows_without_detail_section",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/consistency_bulletin_vs_section_totals.csv",
+   "media_type": "text/csv",
+   "bytes": 110,
+   "sha256": "9deac0584a6b38a086f1e5f66a3c486bb91e84ac9a82be3d7e261ff33cd28d3a",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "NR_VOTAVEL",
+      "type": "integer"
+     },
+     {
+      "name": "bu_votes",
+      "type": "integer"
+     },
+     {
+      "name": "sec_votes",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/consistency_checks_not_run.csv",
+   "media_type": "text/csv",
+   "bytes": 885,
+   "sha256": "9276fa23d037e26dd7129f2a6e91f6e05e37da88148666b93bc7137768168748",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "check",
+      "type": "string"
+     },
+     {
+      "name": "status",
+      "type": "string"
+     },
+     {
+      "name": "reason",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/consistency_munzona_diffs_2018.csv",
+   "media_type": "text/csv",
+   "bytes": 66,
+   "sha256": "aeb66fab360e7a937de482831b7da8dc4c2cf081061b523aa0b3e3f51200d3af",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "SG_UF",
+      "type": "integer"
+     },
+     {
+      "name": "CD_MUNICIPIO",
+      "type": "integer"
+     },
+     {
+      "name": "NR_ZONA",
+      "type": "integer"
+     },
+     {
+      "name": "NR_CANDIDATO",
+      "type": "integer"
+     },
+     {
+      "name": "published",
+      "type": "integer"
+     },
+     {
+      "name": "sum_of_sections",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/consistency_munzona_diffs_2022.csv",
+   "media_type": "text/csv",
+   "bytes": 66,
+   "sha256": "aeb66fab360e7a937de482831b7da8dc4c2cf081061b523aa0b3e3f51200d3af",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "SG_UF",
+      "type": "integer"
+     },
+     {
+      "name": "CD_MUNICIPIO",
+      "type": "integer"
+     },
+     {
+      "name": "NR_ZONA",
+      "type": "integer"
+     },
+     {
+      "name": "NR_CANDIDATO",
+      "type": "integer"
+     },
+     {
+      "name": "published",
+      "type": "integer"
+     },
+     {
+      "name": "sum_of_sections",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/consistency_munzona_diffs_2026.csv",
+   "media_type": "text/csv",
+   "bytes": 66,
+   "sha256": "aeb66fab360e7a937de482831b7da8dc4c2cf081061b523aa0b3e3f51200d3af",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "SG_UF",
+      "type": "integer"
+     },
+     {
+      "name": "CD_MUNICIPIO",
+      "type": "integer"
+     },
+     {
+      "name": "NR_ZONA",
+      "type": "integer"
+     },
+     {
+      "name": "NR_CANDIDATO",
+      "type": "integer"
+     },
+     {
+      "name": "published",
+      "type": "integer"
+     },
+     {
+      "name": "sum_of_sections",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/consistency_national_report_2026.csv",
+   "media_type": "text/csv",
+   "bytes": 230,
+   "sha256": "827eebd705ebd90a9134e885daeece59e87f25e494b0ec7fc4b97cf35980696f",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "",
+      "type": "string"
+     },
+     {
+      "name": "national_report",
+      "type": "integer"
+     },
+     {
+      "name": "sum_of_sections",
+      "type": "integer"
+     },
+     {
+      "name": "match",
+      "type": "boolean"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/consistency_sections_without_bulletin.csv",
+   "media_type": "text/csv",
+   "bytes": 141,
+   "sha256": "3fa81b7bc7f7994d2bfd8ddc9b9422d146fbf3ef2bbfb5ead1aff933ddffd0c8",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "abroad",
+      "type": "boolean"
+     },
+     {
+      "name": "DS_ORIGEM_VOTO",
+      "type": "string"
+     },
+     {
+      "name": "ST_SECAO_INSTALADA",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "turnout",
+      "type": "integer"
+     },
+     {
+      "name": "electorate",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/consistency_sha512.csv",
+   "media_type": "text/csv",
+   "bytes": 8192,
+   "sha256": "dae526c6cd0b9f83299264099a9609c904c2a0a89845d764299a2caa13113c3e",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "file",
+      "type": "string"
+     },
+     {
+      "name": "sha512_published",
+      "type": "string"
+     },
+     {
+      "name": "sha512_computed",
+      "type": "string"
+     },
+     {
+      "name": "match",
+      "type": "boolean"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/consistency_summary.csv",
+   "media_type": "text/csv",
+   "bytes": 1756,
+   "sha256": "ddfe1ab0daf5b0b2cf50dd0d833111a2192434492abae399b6e89d68c6d3159f",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "check",
+      "type": "string"
+     },
+     {
+      "name": "result",
+      "type": "string"
+     },
+     {
+      "name": "detail",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/diag_by_place_category.csv",
+   "media_type": "text/csv",
+   "bytes": 8680,
+   "sha256": "26fcff9c3dd010b129f823745a769eb680863e6f93fc4e9e8a4c87173e1da625",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "candidate",
+      "type": "string"
+     },
+     {
+      "name": "group",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "observed_zeros",
+      "type": "integer"
+     },
+     {
+      "name": "expected_BB_mun",
+      "type": "number"
+     },
+     {
+      "name": "expected_BB_place",
+      "type": "number"
+     },
+     {
+      "name": "expected_EB_r1",
+      "type": "number"
+     },
+     {
+      "name": "expected_B_mun",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/diag_history_2022_of_2026_zero_sections.csv",
+   "media_type": "text/csv",
+   "bytes": 246,
+   "sha256": "474de40b9ebe21c517d03332f45d08e04cd214d021435869ec50d48d001139cd",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "zero_sections_2026",
+      "type": "integer"
+     },
+     {
+      "name": "same_key_in_2022",
+      "type": "integer"
+     },
+     {
+      "name": "same_key_and_place_name",
+      "type": "integer"
+     },
+     {
+      "name": "median_2022_share_same_side",
+      "type": "number"
+     },
+     {
+      "name": "max_2022_share_same_side",
+      "type": "number"
+     },
+     {
+      "name": "n_2022_share_zero",
+      "type": "integer"
+     },
+     {
+      "name": "n_2022_share_lt_5pct",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/diag_indigenous_flagged_places.csv",
+   "media_type": "text/csv",
+   "bytes": 1521,
+   "sha256": "5244616a837d30ebc66558c4d5dc334833c69e21d2b7627c191eb8766128b445",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "candidate",
+      "type": "string"
+     },
+     {
+      "name": "classifier",
+      "type": "string"
+     },
+     {
+      "name": "indigenous_flagged_sections",
+      "type": "integer"
+     },
+     {
+      "name": "median_share_in_flagged",
+      "type": "number"
+     },
+     {
+      "name": "pooled_share_in_flagged",
+      "type": "number"
+     },
+     {
+      "name": "flagged_sections_share_lt_1pct",
+      "type": "integer"
+     },
+     {
+      "name": "flagged_sections_zero",
+      "type": "integer"
+     },
+     {
+      "name": "zero_rate_in_flagged",
+      "type": "number"
+     },
+     {
+      "name": "expected_BB_mun_in_flagged",
+      "type": "number"
+     },
+     {
+      "name": "national_share",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/diag_local_share_in_zero_sections.csv",
+   "media_type": "text/csv",
+   "bytes": 564,
+   "sha256": "cb24041418bd9d5fb9507ab6f4f6840b8a903d778e0fa7df8146b50295c6ad28",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "candidate",
+      "type": "string"
+     },
+     {
+      "name": "zero_sections",
+      "type": "integer"
+     },
+     {
+      "name": "median_mun_loo_share_of_zero_candidate",
+      "type": "number"
+     },
+     {
+      "name": "mean_mun_loo_share_of_zero_candidate",
+      "type": "number"
+     },
+     {
+      "name": "median_valid_votes",
+      "type": "number"
+     },
+     {
+      "name": "zero_sections_alone_in_their_place",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/diag_round1_share_2026_zero_sections.csv",
+   "media_type": "text/csv",
+   "bytes": 138,
+   "sha256": "dd2600e951daae1d5835b65ea9a5838d1c4fa6dcced57b8575307a9911ff841f",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "median_r1_share",
+      "type": "number"
+     },
+     {
+      "name": "max_r1_share",
+      "type": "number"
+     },
+     {
+      "name": "r1_zero",
+      "type": "integer"
+     },
+     {
+      "name": "r1_lt_5pct",
+      "type": "integer"
+     },
+     {
+      "name": "r1_ge_10pct",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/ibge_unmatched_municipalities.csv",
+   "media_type": "text/csv",
+   "bytes": 184,
+   "sha256": "8738459b19eba158626bbad7ff608138e4bffff6092761c7e0d8c41f7b52693c",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "state",
+      "type": "integer"
+     },
+     {
+      "name": "municipality",
+      "type": "integer"
+     },
+     {
+      "name": "municipality_code_tse",
+      "type": "integer"
+     },
+     {
+      "name": "ibge_code",
+      "type": "integer"
+     },
+     {
+      "name": "units_pooled",
+      "type": "integer"
+     },
+     {
+      "name": "region",
+      "type": "integer"
+     },
+     {
+      "name": "sections_with_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "eligible_voters",
+      "type": "integer"
+     },
+     {
+      "name": "votes_cast",
+      "type": "integer"
+     },
+     {
+      "name": "valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "votes_lula",
+      "type": "integer"
+     },
+     {
+      "name": "votes_flavio",
+      "type": "integer"
+     },
+     {
+      "name": "share_lula",
+      "type": "integer"
+     },
+     {
+      "name": "share_flavio",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m1_expectation_decomposition.csv",
+   "media_type": "text/csv",
+   "bytes": 36652,
+   "sha256": "ea3a8d6d5694dd3eabb84f13960f65e058f6223c1ddb9b58a8fd690aee9c1335",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "model",
+      "type": "string"
+     },
+     {
+      "name": "group",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "observed_zeros",
+      "type": "integer"
+     },
+     {
+      "name": "expected_zeros",
+      "type": "number"
+     },
+     {
+      "name": "share_of_model_total",
+      "type": "number"
+     },
+     {
+      "name": "median_q",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m4_counterfactual_reweighting.csv",
+   "media_type": "text/csv",
+   "bytes": 1967,
+   "sha256": "9edc64c03f5de90138688e7ae9061245b13de2b338534b44e945fa05bff94be3",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "candidate_2026",
+      "type": "string"
+     },
+     {
+      "name": "classifier",
+      "type": "string"
+     },
+     {
+      "name": "flagged_share_2022",
+      "type": "number"
+     },
+     {
+      "name": "flagged_share_2026",
+      "type": "number"
+     },
+     {
+      "name": "flagged_sections_2026",
+      "type": "integer"
+     },
+     {
+      "name": "flagged_sections_at_2022_share",
+      "type": "number"
+     },
+     {
+      "name": "zero_rate_flagged_2026",
+      "type": "number"
+     },
+     {
+      "name": "zero_rate_flagged_2022",
+      "type": "number"
+     },
+     {
+      "name": "zero_rate_flagged_2018",
+      "type": "number"
+     },
+     {
+      "name": "observed_outside_2026",
+      "type": "integer"
+     },
+     {
+      "name": "expected_outside_2026",
+      "type": "number"
+     },
+     {
+      "name": "observed_outside_2022",
+      "type": "integer"
+     },
+     {
+      "name": "expected_outside_2022",
+      "type": "number"
+     },
+     {
+      "name": "observed_outside_2018",
+      "type": "integer"
+     },
+     {
+      "name": "expected_outside_2018",
+      "type": "number"
+     },
+     {
+      "name": "zeros_flagged_counterfactual",
+      "type": "number"
+     },
+     {
+      "name": "expected_flagged_counterfactual",
+      "type": "number"
+     },
+     {
+      "name": "ratio_2026_actual",
+      "type": "number"
+     },
+     {
+      "name": "ratio_2026_counterfactual",
+      "type": "number"
+     },
+     {
+      "name": "ratio_2026_outside_flagged_only",
+      "type": "number"
+     },
+     {
+      "name": "ratio_2022_outside_flagged_only",
+      "type": "number"
+     },
+     {
+      "name": "u2_threshold_pooled",
+      "type": "number"
+     },
+     {
+      "name": "u2_threshold_own_side",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m4_flag_components_by_year.csv",
+   "media_type": "text/csv",
+   "bytes": 1289,
+   "sha256": "33426d267044a08c93d7403a950080276563b699bc5a2ae73cd8f168e2729e29",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "component",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m4_place_matching_across_years.csv",
+   "media_type": "text/csv",
+   "bytes": 2605,
+   "sha256": "17df1b67dafb9ea55826fbdd689a46764c2dac05c7f58350a0e41f82c426eb3b",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "later_year",
+      "type": "integer"
+     },
+     {
+      "name": "earlier_year",
+      "type": "integer"
+     },
+     {
+      "name": "match",
+      "type": "string"
+     },
+     {
+      "name": "status",
+      "type": "string"
+     },
+     {
+      "name": "sections_later",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp_later",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt_later",
+      "type": "integer"
+     },
+     {
+      "name": "expected_BB_mun_opp_later",
+      "type": "number"
+     },
+     {
+      "name": "sections_earlier",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp_earlier",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt_earlier",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m4_stable_panel_zero_rates.csv",
+   "media_type": "text/csv",
+   "bytes": 902,
+   "sha256": "8adb68ffbd4e196f2bf068e65689b9251417fb3095747010128fec5c0cb70666",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "panel",
+      "type": "string"
+     },
+     {
+      "name": "match",
+      "type": "string"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "places",
+      "type": "integer"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt",
+      "type": "integer"
+     },
+     {
+      "name": "zero_rate_opp",
+      "type": "number"
+     },
+     {
+      "name": "zero_rate_pt",
+      "type": "number"
+     },
+     {
+      "name": "pooled_share_opp",
+      "type": "number"
+     },
+     {
+      "name": "expected_BB_mun_opp",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5_classifier_agreement_zero_sections.csv",
+   "media_type": "text/csv",
+   "bytes": 201,
+   "sha256": "06f2e95be209898b0ae35a1233d6cb7c8c53c5ae55af558a442db975498dac4c",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "classifier",
+      "type": "string"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "zero_sections",
+      "type": "integer"
+     },
+     {
+      "name": "labelled_indigenous",
+      "type": "integer"
+     },
+     {
+      "name": "flagged",
+      "type": "integer"
+     },
+     {
+      "name": "agree_indigenous",
+      "type": "integer"
+     },
+     {
+      "name": "flagged_not_labelled",
+      "type": "integer"
+     },
+     {
+      "name": "labelled_not_flagged",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5_classifier_changes_2026_totals.csv",
+   "media_type": "text/csv",
+   "bytes": 78,
+   "sha256": "3c8240fcaee4d84e7d26d4cdc72ac1e1f3b1692c4199ebe442b4aa9c965245eb",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "change",
+      "type": "string"
+     },
+     {
+      "name": "places",
+      "type": "integer"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5_label_category_counts.csv",
+   "media_type": "text/csv",
+   "bytes": 366,
+   "sha256": "72954a55936f5783c2981d76298a570a19960debd5ebf57b008648c9f6fcf02d",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "label_category",
+      "type": "string"
+     },
+     {
+      "name": "detail",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "district_label_only",
+      "type": "integer"
+     },
+     {
+      "name": "medium_confidence",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5_precision_false_positive_reasons.csv",
+   "media_type": "text/csv",
+   "bytes": 139,
+   "sha256": "85277e9b0f2aec978b4e2e0405675d36648b332b39a6f996dd2088c2e0f589ff",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "reason",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5_precision_label_counts.csv",
+   "media_type": "text/csv",
+   "bytes": 146,
+   "sha256": "646b4a26bae7052b3107c0c781d41c5a8e252655d62146207689f5212de8e036",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "label",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5_precision_sample.csv",
+   "media_type": "text/csv",
+   "bytes": 484,
+   "sha256": "373aa62e0b0a99f1efc1e2025a9f82bdba071bc60752bd781613147de22894df",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "measure",
+      "type": "string"
+     },
+     {
+      "name": "flagged_sections_2026",
+      "type": "integer"
+     },
+     {
+      "name": "sample_sections",
+      "type": "integer"
+     },
+     {
+      "name": "sections_yes",
+      "type": "integer"
+     },
+     {
+      "name": "share_sections",
+      "type": "number"
+     },
+     {
+      "name": "share_sections_lo95_place_bootstrap",
+      "type": "number"
+     },
+     {
+      "name": "share_sections_hi95_place_bootstrap",
+      "type": "number"
+     },
+     {
+      "name": "sample_places",
+      "type": "integer"
+     },
+     {
+      "name": "places_yes",
+      "type": "integer"
+     },
+     {
+      "name": "share_places",
+      "type": "number"
+     },
+     {
+      "name": "share_places_lo95_wilson",
+      "type": "number"
+     },
+     {
+      "name": "share_places_hi95_wilson",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5b_coordinate_coverage.csv",
+   "media_type": "text/csv",
+   "bytes": 1097,
+   "sha256": "3d30519cbccacd7c9851f1f805d46d0b611458c51c1a1855dbb079ff3a3a1bb3",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "group",
+      "type": "string"
+     },
+     {
+      "name": "coordinate",
+      "type": "string"
+     },
+     {
+      "name": "places",
+      "type": "integer"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "voters",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5b_panel_2022_2026.csv",
+   "media_type": "text/csv",
+   "bytes": 816,
+   "sha256": "08201c8ba9e3a7e58c4b8c2c3dcbf49d7e37a7a4d5d863a67b9ee602c8b51464",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "definition",
+      "type": "string"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "places_in_both_years",
+      "type": "integer"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt",
+      "type": "integer"
+     },
+     {
+      "name": "zero_rate_opp",
+      "type": "number"
+     },
+     {
+      "name": "zero_rate_opp_lo95",
+      "type": "number"
+     },
+     {
+      "name": "zero_rate_opp_hi95",
+      "type": "number"
+     },
+     {
+      "name": "zero_rate_pt",
+      "type": "integer"
+     },
+     {
+      "name": "pooled_share_opp",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5b_register_feature_counts.csv",
+   "media_type": "text/csv",
+   "bytes": 246,
+   "sha256": "44f8ba04ee444078114d36a4979e2b569b8a916b11c7256ae79fc925fa742d51",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "register",
+      "type": "string"
+     },
+     {
+      "name": "features",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5b_registers.csv",
+   "media_type": "text/csv",
+   "bytes": 3628,
+   "sha256": "12b1a80608838074feca632c05978c0f5fe2f2a68dfa2c282aaa36098b4b54a7",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "register",
+      "type": "string"
+     },
+     {
+      "name": "publisher",
+      "type": "string"
+     },
+     {
+      "name": "url",
+      "type": "string"
+     },
+     {
+      "name": "retrieved_utc",
+      "type": "string"
+     },
+     {
+      "name": "licence",
+      "type": "string"
+     },
+     {
+      "name": "sha256",
+      "type": "string"
+     },
+     {
+      "name": "sha256_matches_plan",
+      "type": "boolean"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5b_text_flagged_places_by_register_category.csv",
+   "media_type": "text/csv",
+   "bytes": 192,
+   "sha256": "dc3f7dce44377655f56208dbc7ad2f9895fd09620b86db94f5f348bd2f62014f",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "category",
+      "type": "string"
+     },
+     {
+      "name": "places",
+      "type": "integer"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5b_text_rule_census.csv",
+   "media_type": "text/csv",
+   "bytes": 589,
+   "sha256": "e505df2926705725fb94efb7ecb4e8300926f3cee3db5a57dc304ff5710272a2",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "scope",
+      "type": "string"
+     },
+     {
+      "name": "threshold",
+      "type": "string"
+     },
+     {
+      "name": "flag_and_register",
+      "type": "integer"
+     },
+     {
+      "name": "flag_only",
+      "type": "integer"
+     },
+     {
+      "name": "register_only",
+      "type": "integer"
+     },
+     {
+      "name": "neither",
+      "type": "integer"
+     },
+     {
+      "name": "precision",
+      "type": "number"
+     },
+     {
+      "name": "recall",
+      "type": "number"
+     },
+     {
+      "name": "kappa",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5b_text_rule_samples.csv",
+   "media_type": "text/csv",
+   "bytes": 2803,
+   "sha256": "b619f50d9036507e198e7e19539f65f09ec94e0ad1bcb0c3bab2fd27b406a998",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "threshold",
+      "type": "string"
+     },
+     {
+      "name": "quantity",
+      "type": "string"
+     },
+     {
+      "name": "k",
+      "type": "integer"
+     },
+     {
+      "name": "n_places",
+      "type": "integer"
+     },
+     {
+      "name": "estimate",
+      "type": "number"
+     },
+     {
+      "name": "lo95",
+      "type": "number"
+     },
+     {
+      "name": "hi95",
+      "type": "number"
+     },
+     {
+      "name": "interval",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5b_zero_sections_agreement.csv",
+   "media_type": "text/csv",
+   "bytes": 1063,
+   "sha256": "c6cc7af87e486336d9d357a5e213eaf7e770e5c14366da5aa9d39f93e3880943",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "label",
+      "type": "string"
+     },
+     {
+      "name": "lab_category",
+      "type": "string"
+     },
+     {
+      "name": "label_basis",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5b_zero_sections_agreement_summary.csv",
+   "media_type": "text/csv",
+   "bytes": 405,
+   "sha256": "25b371a96ded8b1461753c42750cd63fcfb202ce9cce8a28fa2f854a81383049",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "label_set",
+      "type": "string"
+     },
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "agree_coarse",
+      "type": "integer"
+     },
+     {
+      "name": "lab_indigenous",
+      "type": "integer"
+     },
+     {
+      "name": "ext_indigenous",
+      "type": "integer"
+     },
+     {
+      "name": "ext_village",
+      "type": "integer"
+     },
+     {
+      "name": "ext_urban_indigenous_school",
+      "type": "integer"
+     },
+     {
+      "name": "both_indigenous",
+      "type": "integer"
+     },
+     {
+      "name": "external_only",
+      "type": "integer"
+     },
+     {
+      "name": "lab_only",
+      "type": "integer"
+     },
+     {
+      "name": "kappa_indigenous",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/m5b_zero_sections_categories.csv",
+   "media_type": "text/csv",
+   "bytes": 623,
+   "sha256": "f2af016ea9793a11a9b05c40f573d4ddd105fdb6398a26a9df2b31946c627bed",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "label",
+      "type": "string"
+     },
+     {
+      "name": "label_basis",
+      "type": "string"
+     },
+     {
+      "name": "confidence",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/model_scores.csv",
+   "media_type": "text/csv",
+   "bytes": 4259,
+   "sha256": "5aea13aa62458986cc159aa92f20394cecb5cfe1f23c893c49e9668089126458",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "model",
+      "type": "string"
+     },
+     {
+      "name": "model_status",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "observed_zeros",
+      "type": "integer"
+     },
+     {
+      "name": "expected_zeros",
+      "type": "number"
+     },
+     {
+      "name": "log_score",
+      "type": "number"
+     },
+     {
+      "name": "brier_sum",
+      "type": "number"
+     },
+     {
+      "name": "sections_q_eq_1",
+      "type": "integer"
+     },
+     {
+      "name": "nonzero_sections_q_eq_1",
+      "type": "integer"
+     },
+     {
+      "name": "zero_sections_q_below_1e-6",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/observed_vs_expected.csv",
+   "media_type": "text/csv",
+   "bytes": 60328,
+   "sha256": "66abeabb42a14110dcc890471594778e4bc7b9861e58c9960fb05bc838c0cae1",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "candidate",
+      "type": "string"
+     },
+     {
+      "name": "event",
+      "type": "string"
+     },
+     {
+      "name": "min_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "model",
+      "type": "string"
+     },
+     {
+      "name": "model_status",
+      "type": "string"
+     },
+     {
+      "name": "observed",
+      "type": "integer"
+     },
+     {
+      "name": "expected",
+      "type": "number"
+     },
+     {
+      "name": "sd",
+      "type": "number"
+     },
+     {
+      "name": "upper_99_9_normal",
+      "type": "number"
+     },
+     {
+      "name": "u1_fires_normal",
+      "type": "boolean"
+     },
+     {
+      "name": "upper_99_9_exact",
+      "type": "integer"
+     },
+     {
+      "name": "p_exact_ge_observed",
+      "type": "number"
+     },
+     {
+      "name": "u1_fires_exact",
+      "type": "boolean"
+     },
+     {
+      "name": "obs_over_exp",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/ratio_bootstrap_places.csv",
+   "media_type": "text/csv",
+   "bytes": 2702,
+   "sha256": "d692d8514fb44b8d2a260600a8da0087f199b200d4f085ad89f707387d1668e3",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "model",
+      "type": "string"
+     },
+     {
+      "name": "ratio",
+      "type": "number"
+     },
+     {
+      "name": "ratio_lo95",
+      "type": "number"
+     },
+     {
+      "name": "ratio_hi95",
+      "type": "number"
+     },
+     {
+      "name": "places",
+      "type": "integer"
+     },
+     {
+      "name": "reps",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/round_mapping_by_year.csv",
+   "media_type": "text/csv",
+   "bytes": 539,
+   "sha256": "a23e555a111c620ce221172f91837db8922c359b674348b21574c7d7ba2b6f94",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "pt_candidate",
+      "type": "string"
+     },
+     {
+      "name": "opp_candidate",
+      "type": "string"
+     },
+     {
+      "name": "r1_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "r1_top_two_votes",
+      "type": "integer"
+     },
+     {
+      "name": "r1_top_two_share_of_valid",
+      "type": "number"
+     },
+     {
+      "name": "r1_opp_share_of_top_two",
+      "type": "number"
+     },
+     {
+      "name": "r2_opp_share_of_top_two",
+      "type": "number"
+     },
+     {
+      "name": "change_opp_share_r1_to_r2",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/scale.csv",
+   "media_type": "text/csv",
+   "bytes": 1317,
+   "sha256": "ea4c347351132334169b612a55e7697000aedacb16c2c286c0fb5c8ba623d97c",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "sections_total",
+      "type": "integer"
+     },
+     {
+      "name": "sections_with_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "valid_votes_total",
+      "type": "integer"
+     },
+     {
+      "name": "votes_pt",
+      "type": "integer"
+     },
+     {
+      "name": "votes_opp",
+      "type": "integer"
+     },
+     {
+      "name": "pt_name",
+      "type": "string"
+     },
+     {
+      "name": "opp_name",
+      "type": "string"
+     },
+     {
+      "name": "margin_pt_minus_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt_sections",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt_share_of_sections",
+      "type": "number"
+     },
+     {
+      "name": "zero_pt_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt_share_of_valid_votes",
+      "type": "number"
+     },
+     {
+      "name": "zero_pt_other_candidate_votes",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp_sections",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp_share_of_sections",
+      "type": "number"
+     },
+     {
+      "name": "zero_opp_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp_share_of_valid_votes",
+      "type": "number"
+     },
+     {
+      "name": "zero_opp_other_candidate_votes",
+      "type": "integer"
+     },
+     {
+      "name": "margin_if_all_zero_sections_annulled",
+      "type": "integer"
+     },
+     {
+      "name": "margin_if_votes_in_opp_zero_sections_moved_to_opp",
+      "type": "integer"
+     },
+     {
+      "name": "margin_if_opponent_votes_moved_to_zero_candidate_both_sides",
+      "type": "integer"
+     },
+     {
+      "name": "pt_votes_in_opp_zero_sections_as_share_of_margin",
+      "type": "number"
+     },
+     {
+      "name": "votes_needed_to_move_to_flip",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/u2_history_check.csv",
+   "media_type": "text/csv",
+   "bytes": 9526,
+   "sha256": "20a6057ea616a314425c241800756edb7326a33e7b41e9fa699187b0baa48015",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "event",
+      "type": "string"
+     },
+     {
+      "name": "min_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "model",
+      "type": "string"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "observed_2026",
+      "type": "integer"
+     },
+     {
+      "name": "expected_2026",
+      "type": "number"
+     },
+     {
+      "name": "ratio_2026",
+      "type": "number"
+     },
+     {
+      "name": "baseline_min_pooled",
+      "type": "number"
+     },
+     {
+      "name": "baseline_max_pooled",
+      "type": "number"
+     },
+     {
+      "name": "u2_fires_pooled",
+      "type": "boolean"
+     },
+     {
+      "name": "own_side_ratio_2022",
+      "type": "number"
+     },
+     {
+      "name": "own_side_ratio_2018",
+      "type": "number"
+     },
+     {
+      "name": "ratio_2026_over_own_side_max",
+      "type": "number"
+     },
+     {
+      "name": "u2_fires_own_side_added_after_results",
+      "type": "boolean"
+     },
+     {
+      "name": "expected_2026_below_1",
+      "type": "boolean"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_by_official_place_type_2018.csv",
+   "media_type": "text/csv",
+   "bytes": 174,
+   "sha256": "e0d8f382808106ba4f44713130188b8b02ba2b642db906db96b10c794dc89837",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "official_place_type",
+      "type": "string"
+     },
+     {
+      "name": "all_sections",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt",
+      "type": "integer"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_by_official_place_type_2022.csv",
+   "media_type": "text/csv",
+   "bytes": 175,
+   "sha256": "afdb3fcbec7e8f30d4f38f385bf32d7b44c9a624d0d418c82aa3d4332610eea7",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "official_place_type",
+      "type": "string"
+     },
+     {
+      "name": "all_sections",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt",
+      "type": "integer"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_by_official_place_type_2026.csv",
+   "media_type": "text/csv",
+   "bytes": 174,
+   "sha256": "59e7b339fd7a030b9f1ba8f94b4a9f9b4029c48ec009eaebefdef37453a781f6",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "official_place_type",
+      "type": "string"
+     },
+     {
+      "name": "all_sections",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt",
+      "type": "integer"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_by_region_2018.csv",
+   "media_type": "text/csv",
+   "bytes": 302,
+   "sha256": "e2ee68017f00079a53512904ecae3b891159523bc979db1e31cdfcf66cffc30f",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "region",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "votes_pt",
+      "type": "integer"
+     },
+     {
+      "name": "votes_opp",
+      "type": "integer"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_by_region_2022.csv",
+   "media_type": "text/csv",
+   "bytes": 316,
+   "sha256": "4eff64b21256ee8046e8c717d0970d552d971e0a42747aba9ba195b2999e7a30",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "region",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "votes_pt",
+      "type": "integer"
+     },
+     {
+      "name": "votes_opp",
+      "type": "integer"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_by_region_2026.csv",
+   "media_type": "text/csv",
+   "bytes": 268,
+   "sha256": "ae02f349fe274b3574ffb0e7677e0357ee45134d2bc0b0792f5d41621b31bdbf",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "region",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "votes_pt",
+      "type": "integer"
+     },
+     {
+      "name": "votes_opp",
+      "type": "integer"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_by_state_2018.csv",
+   "media_type": "text/csv",
+   "bytes": 356,
+   "sha256": "0d37b913043c1659e269e1484bb38c9091af7d89f24a0a584bec281bb3c34f08",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "SG_UF",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_by_state_2022.csv",
+   "media_type": "text/csv",
+   "bytes": 323,
+   "sha256": "8f4cfab2776e07139a6213526c1fe35391dddcbaf23aafb5c7d70f520e703fc0",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "SG_UF",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_by_state_2026.csv",
+   "media_type": "text/csv",
+   "bytes": 310,
+   "sha256": "ee4e54b67f3f18d6d53dd37200fcda1b0930160943f19f4871d7032bf11412d2",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "zero_for",
+      "type": "string"
+     },
+     {
+      "name": "SG_UF",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "year",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_counts_by_min_size_2018.csv",
+   "media_type": "text/csv",
+   "bytes": 263,
+   "sha256": "4e8d8a350ee01f4d0d9ad8992c4e25797970d4581859353eb5a02434ab81b565",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "min_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt",
+      "type": "integer"
+     },
+     {
+      "name": "pt_votes_in_zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "opp_votes_in_zero_pt",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_counts_by_min_size_2022.csv",
+   "media_type": "text/csv",
+   "bytes": 259,
+   "sha256": "56945b641e518e90f6b0c4678955851dcce9078418516fd6aad09709b42518c0",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "min_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt",
+      "type": "integer"
+     },
+     {
+      "name": "pt_votes_in_zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "opp_votes_in_zero_pt",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_counts_by_min_size_2026.csv",
+   "media_type": "text/csv",
+   "bytes": 261,
+   "sha256": "35f4a3fa99e36fd8b69697deb1dd496296daf2c874c321cc901791ae8cb28fdc",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "min_valid_votes",
+      "type": "integer"
+     },
+     {
+      "name": "zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "zero_pt",
+      "type": "integer"
+     },
+     {
+      "name": "pt_votes_in_zero_opp",
+      "type": "integer"
+     },
+     {
+      "name": "opp_votes_in_zero_pt",
+      "type": "integer"
+     }
+    ]
+   }
+  },
+  {
+   "path": "results/zero_sections_summary.csv",
+   "media_type": "text/csv",
+   "bytes": 2130,
+   "sha256": "1d94edf9466b2024b0e7c5f71beb27b4024053afe20aefc1d3981f59cee746ce",
+   "table_schema": {
+    "fields": [
+     {
+      "name": "year",
+      "type": "integer"
+     },
+     {
+      "name": "group",
+      "type": "string"
+     },
+     {
+      "name": "side",
+      "type": "string"
+     },
+     {
+      "name": "sections",
+      "type": "integer"
+     },
+     {
+      "name": "median_electorate",
+      "type": "number"
+     },
+     {
+      "name": "median_valid",
+      "type": "number"
+     },
+     {
+      "name": "is_indigenous",
+      "type": "number"
+     },
+     {
+      "name": "is_indigenous_count",
+      "type": "integer"
+     },
+     {
+      "name": "is_quilombola",
+      "type": "number"
+     },
+     {
+      "name": "is_quilombola_count",
+      "type": "integer"
+     },
+     {
+      "name": "is_river",
+      "type": "number"
+     },
+     {
+      "name": "is_river_count",
+      "type": "integer"
+     },
+     {
+      "name": "is_rural",
+      "type": "number"
+     },
+     {
+      "name": "is_rural_count",
+      "type": "integer"
+     },
+     {
+      "name": "is_indig_rural_river",
+      "type": "number"
+     },
+     {
+      "name": "is_indig_rural_river_count",
+      "type": "integer"
+     },
+     {
+      "name": "is_prison",
+      "type": "number"
+     },
+     {
+      "name": "is_prison_count",
+      "type": "integer"
+     },
+     {
+      "name": "is_school",
+      "type": "number"
+     },
+     {
+      "name": "is_school_count",
+      "type": "integer"
+     },
+     {
+      "name": "is_indigenous_v1",
+      "type": "number"
+     },
+     {
+      "name": "is_indigenous_v1_count",
+      "type": "integer"
+     },
+     {
+      "name": "is_indig_rural_river_v1",
+      "type": "number"
+     },
+     {
+      "name": "is_indig_rural_river_v1_count",
+      "type": "integer"
+     },
+     {
+      "name": "candidate_with_zero",
+      "type": "string"
+     },
+     {
+      "name": "other_candidate_votes",
+      "type": "integer"
+     },
+     {
+      "name": "r1_share_ge_10pct",
+      "type": "integer"
+     },
+     {
+      "name": "r1_share_lt_5pct",
+      "type": "integer"
+     },
+     {
+      "name": "r1_share_zero",
+      "type": "integer"
+     }
+    ]
+   }
+  }
+ ],
+ "manifest_sha256": "1210abeabbce9deeff7efe6d392f65a2d430a6f647323209928a1e18dd54ec24",
+ "provenance": {
+  "method_en": "Built by zero_vote_sections.ipynb, executed top to bottom by run_all.sh, from the TSE open-data files pinned in sources.lock.tsv. Every number is a row of results.csv. Derived from data of the Tribunal Superior Eleitoral (CC BY 4.0)."
+ }
+}

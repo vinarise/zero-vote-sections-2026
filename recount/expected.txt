@@ -1,0 +1,12 @@
+year 2018: sections with a round-2 row 454448, votes pt 47040906, votes opp 57797847, margin -10756941
+  at least  1 valid votes: sections 454447, zero for opp 328 (pt votes in them 36608), zero for pt 4 (opp votes in them 315)
+  at least 10 valid votes: sections 454436, zero for opp 326 (pt votes in them 36598), zero for pt 4 (opp votes in them 315)
+  at least 50 valid votes: sections 452505, zero for opp 261 (pt votes in them 34495), zero for pt 2 (opp votes in them 229)
+year 2022: sections with a round-2 row 472028, votes pt 60345999, votes opp 58206354, margin 2139645
+  at least  1 valid votes: sections 472027, zero for opp 143 (pt votes in them 16455), zero for pt 4 (opp votes in them 124)
+  at least 10 valid votes: sections 472017, zero for opp 142 (pt votes in them 16450), zero for pt 2 (opp votes in them 118)
+  at least 50 valid votes: sections 471326, zero for opp 118 (pt votes in them 15739), zero for pt 1 (opp votes in them 79)
+year 2026: sections with a round-2 row 499205, votes pt 64256232, votes opp 59826041, margin 4430191
+  at least  1 valid votes: sections 499205, zero for opp 106 (pt votes in them 14860), zero for pt 4 (opp votes in them 296)
+  at least 10 valid votes: sections 499201, zero for opp 106 (pt votes in them 14860), zero for pt 4 (opp votes in them 296)
+  at least 50 valid votes: sections 498528, zero for opp 88 (pt votes in them 14209), zero for pt 3 (opp votes in them 248)

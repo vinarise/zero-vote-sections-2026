@@ -1,0 +1,25 @@
+later_year,earlier_year,match,status,sections_later,zero_opp_later,zero_pt_later,expected_BB_mun_opp_later,sections_earlier,zero_opp_earlier,zero_pt_earlier
+2026,2022,municipality + place name,place name not found in the earlier year (new or renamed),460,25,0,0.01074293268,,,
+2026,2022,municipality + place name,"same place in both years, flagged in both",703,43,0,0.04608180707,,,
+2026,2022,municipality + place name,"same place in both years, flagged only in the later year (text changed)",6,0,0,0.0001246018043,,,
+2026,2022,municipality + place name,earlier flagged place not found later,,,,,188,9,0
+2026,2022,municipality + place name,earlier flagged place still flagged later,,,,,637,37,0
+2026,2022,municipality + place name,earlier flagged place unflagged later,,,,,7,0,0
+2026,2022,place key + place name,place name not found in the earlier year (new or renamed),460,25,0,0.01074293268,,,
+2026,2022,place key + place name,"same place in both years, flagged in both",703,43,0,0.04608180707,,,
+2026,2022,place key + place name,"same place in both years, flagged only in the later year (text changed)",6,0,0,0.0001246018043,,,
+2026,2022,place key + place name,earlier flagged place not found later,,,,,188,9,0
+2026,2022,place key + place name,earlier flagged place still flagged later,,,,,637,37,0
+2026,2022,place key + place name,earlier flagged place unflagged later,,,,,7,0,0
+2022,2018,municipality + place name,place name not found in the earlier year (new or renamed),56,5,0,0.03152647105,,,
+2022,2018,municipality + place name,"same place in both years, flagged in both",701,28,0,0.04766665611,,,
+2022,2018,municipality + place name,"same place in both years, flagged only in the later year (text changed)",75,13,0,0.002049613986,,,
+2022,2018,municipality + place name,earlier flagged place not found later,,,,,17,3,0
+2022,2018,municipality + place name,earlier flagged place still flagged later,,,,,656,77,1
+2022,2018,municipality + place name,earlier flagged place unflagged later,,,,,8,0,0
+2022,2018,place key + place name,place name not found in the earlier year (new or renamed),56,5,0,0.03152647105,,,
+2022,2018,place key + place name,"same place in both years, flagged in both",701,28,0,0.04766665611,,,
+2022,2018,place key + place name,"same place in both years, flagged only in the later year (text changed)",75,13,0,0.002049613986,,,
+2022,2018,place key + place name,earlier flagged place not found later,,,,,17,3,0
+2022,2018,place key + place name,earlier flagged place still flagged later,,,,,656,77,1
+2022,2018,place key + place name,earlier flagged place unflagged later,,,,,8,0,0

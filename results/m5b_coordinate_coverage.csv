@@ -1,0 +1,17 @@
+year,group,coordinate,places,sections,voters
+2026,all polling places,missing or zero,835,3215,978789
+2026,all polling places,more than 5 km outside own municipality,304,786,205376
+2026,all polling places,outside Brazil box,3,8,1775
+2026,all polling places,"shared default (3+ named places, same point)",343,755,213710
+2026,all polling places,usable,92773,494484,154850854
+2026,all polling places,usable but in no census sector,2,6,2068
+2022,all polling places,missing or zero,6743,27022,8403865
+2022,all polling places,more than 5 km outside own municipality,419,1136,316119
+2022,all polling places,outside Brazil box,1,4,816
+2022,all polling places,"shared default (3+ named places, same point)",461,890,225561
+2022,all polling places,usable,84579,443023,143863828
+2022,all polling places,usable but in no census sector,0,0,0
+2026,"zero-section places, zero for opp",missing or zero,4,4,632
+2026,"zero-section places, zero for opp",more than 5 km outside own municipality,1,1,104
+2026,"zero-section places, zero for opp",usable,93,101,23811
+2026,"zero-section places, zero for pt",usable,4,4,734

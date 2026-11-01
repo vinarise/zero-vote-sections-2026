@@ -1,0 +1,3 @@
+measure,flagged_sections_2026,sample_sections,sections_yes,share_sections,share_sections_lo95_place_bootstrap,share_sections_hi95_place_bootstrap,sample_places,places_yes,share_places,share_places_lo95_wilson,share_places_hi95_wilson
+marker is not a street or road name,1169,200,189,0.945,0.8855721393,0.994507722,172,167,0.9709302326,0.9337638909,0.9875205493
+indigenous village or community,1169,200,181,0.905,0.8349045785,0.9682581454,172,163,0.9476744186,0.903558671,0.9722302412

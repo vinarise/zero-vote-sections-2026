@@ -1,0 +1,18 @@
+check,result,detail
+"bulletin zip SHA-512 matches the hash file on the same CDN (download intact, not authenticity)",28/28,
+"bulletin rows for President, round 2",1931103,urn types: Apurada=499205
+sections in bulletins / sections in detail file,499205 / 499248,sections in detail not in bulletins: 43
+"(section, votable) pairs compared",1931103,pairs that differ: 0
+sections without a bulletin row that are abroad,43/43,installed: 2; total turnout: 0
+"sections where electorate or turnout differ, bulletin vs detail",0,
+sections present in only one of bulletin/detail,43,left_only=43 | detail origin of those: Totalização=41; Sistema de apuração=2
+2026 R2 sections with turnout > electorate,0,of 499248
+2026 R2 sections where turnout != valid + blank + null,0,
+2022 R2 sections with turnout > electorate,0,of 472075
+2022 R2 sections where turnout != valid + blank + null,0,
+2018 R2 sections with turnout > electorate,0,of 454490
+2018 R2 sections where turnout != valid + blank + null,0,
+"2026 R2 (municipality, zone, candidate) cells: sum of sections vs published","12584 cells, 0 differ","municipality level differ: 0; national published by candidate: 13=64256232, 22=59826041. Sum of sections: 13=64256232, 22=59826041"
+"2022 R2 (municipality, zone, candidate) cells: sum of sections vs published","12566 cells, 0 differ","municipality level differ: 0; national published by candidate: 13=60345999, 22=58206354. Sum of sections: 13=60345999, 22=58206354"
+"2018 R2 (municipality, zone, candidate) cells: sum of sections vs published","12480 cells, 0 differ","municipality level differ: 0; national published by candidate: 13=47040906, 17=57797847. Sum of sections: 13=47040906, 17=57797847"
+2026 R2 national report vs sum of sections,6/6 lines match,

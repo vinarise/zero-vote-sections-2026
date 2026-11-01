@@ -1,0 +1,15 @@
+zero_for,label,lab_category,label_basis,sections
+opp,indigenous village or community,indigenous,registers,63
+opp,indigenous village or community,indigenous,"text only, no usable coordinate",3
+opp,indigenous village or community,"rural or river, no indigenous marker",registers,1
+opp,other rural or riverside,indigenous,registers; label changes at 5 km,1
+opp,other rural or riverside,"rural or river, no indigenous marker",registers,17
+opp,other rural or riverside,"rural or river, no indigenous marker",registers; label changes at 5 km,1
+opp,other rural or riverside,"rural or river, no indigenous marker","text only, no usable coordinate",1
+opp,prison or detention,prison,official place type,2
+opp,quilombola community,quilombola,registers,4
+opp,quilombola community,quilombola,registers; label changes at 5 km,1
+opp,quilombola community,"rural or river, no indigenous marker",registers,11
+opp,urban,indigenous,registers,1
+pt,other rural or riverside,"rural or river, no indigenous marker",registers,3
+pt,urban,"rural or river, no indigenous marker",registers,1

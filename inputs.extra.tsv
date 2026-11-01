@@ -1,0 +1,5 @@
+kind	file	url	bytes	sha256	note
+label	zero_sections_2026_labels.csv		38205	0c3e01351d951662a627e38895e5bee65cbcf9e8f2b4e65836ca73d6569836f4	private analyst labels of the 110 zero sections of 2026, not published
+label	precision_sample_2026_labels.csv		81902	efdbfa5333256eb3eece9ea5751c49fc4ef018911432618be6c1634f268ce149	private analyst labels of a random sample of 200 flagged sections, not published
+map	ibge-br-uf-minima.geojson	https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?intrarregiao=UF&formato=application/vnd.geo%2Bjson&qualidade=minima	98502	07c671aa87aa1ab296c446de6294df9827112782537b996c0a160284907e7c0f	IBGE state mesh, retrieved 2026-10-26, the frame of the map
+map	ibge_municipios.json	https://servicodados.ibge.gov.br/api/v1/localidades/municipios	2470036	86ecdccdf97d72e7e5e46f0854cfcea8bacc28154cc1bc4ed0e6110e3a6c9c02	IBGE municipality names

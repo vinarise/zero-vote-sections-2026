@@ -1,0 +1,7 @@
+definition,year,places_in_both_years,sections,zero_opp,zero_pt,zero_rate_opp,zero_rate_opp_lo95,zero_rate_opp_hi95,zero_rate_pt,pooled_share_opp
+register: indigenous village or community,2026,503,1067,36,0,0.03373945642,0.02116380591,0.04733146821,0,0.1610241549
+register: indigenous village or community,2022,503,964,35,0,0.03630705394,0.02400633076,0.05000122669,0,0.160655219
+register signal IND (any situation),2026,904,3657,36,0,0.009844134537,0.006254698824,0.01427771941,0,0.3442083897
+register signal IND (any situation),2022,904,3428,35,0,0.01021003501,0.006707263523,0.01406033767,0,0.3541322259
+lab text flag (for comparison),2026,347,703,43,0,0.06116642959,0.04171653121,0.0834439995,0,0.1158134571
+lab text flag (for comparison),2022,347,637,37,0,0.05808477237,0.0385903451,0.07993887147,0,0.1226613595
